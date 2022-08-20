@@ -24,11 +24,11 @@
   --winter-sky_50: hsla(335, 87%, 53%, 0.5);
   --purple-navy: hsl(236, 26%, 43%);
   --ksu-purple: hsl(275, 54%, 33%);
-  /* --winter-sky: hsl(335, 87%, 53%); */
-  --winter-sky: hsl(204, 87%, 53%);
+  --winter-sky: hsl(335, 87%, 53%);
+  /* --winter-sky: hsl(204, 87%, 53%); */
 
-  /* --razzmatazz: hsl(335, 87%, 51%); */
-  --razzmatazz: hsl(190, 87%, 51%);
+  --razzmatazz: hsl(335, 87%, 51%);
+  /* --razzmatazz: hsl(190, 87%, 51%); */
 
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
