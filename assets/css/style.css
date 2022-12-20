@@ -315,6 +315,7 @@ body {
   color: var(--color);
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-3);
+  height: 50px;
 }
 
 .nav-open-btn {
@@ -324,7 +325,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--white);
+  background-color: white;
   position: fixed;
   top: 0;
   left: -280px;
@@ -347,13 +348,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 10px 30px;
+  margin-bottom: 30px;
 }
 
 .navbar-top .logo {
-  color: var(--st-patricks-blue);
+  color: white;
   font-size: 4.2rem;
   font-weight: var(--fw-700);
+  height: 34px;
 }
 
 .nav-close-btn {
