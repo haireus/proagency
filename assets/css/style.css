@@ -1,20 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-  /**
-   * colors
-   */
-
   --st-patricks-blue: hsl(236, 57%, 28%);
   --amaranth-purple: hsl(335, 88%, 38%);
   --royal-blue-dark: hsl(231, 68%, 21%);
@@ -27,20 +11,12 @@
   --winter-sky: rgba(255, 255, 255, 0.844);
 
   --razzmatazz: hsl(335, 87%, 51%);
-  /* --razzmatazz: hsl(190, 87%, 51%); */
 
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
   --rajah: hsl(29, 99%, 67%);
-  /* --white: hsl(0, 0%, 100%); */
-  --white: #24283a;
 
-  /* --gradient-1: linear-gradient(
-    90deg,
-    var(--royal-blue-dark) 0,
-    var(--ksu-purple) 51%,
-    var(--royal-blue-dark)
-  ); */
+  --white: #24283a;
 
   --gradient-1: linear-gradient(
     90deg,
@@ -298,10 +274,8 @@ body {
 }
 
 .header.active {
-  --color: white;
-
   position: fixed;
-  background-color: var(--white);
+  background-color: white;
   box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 }
 
@@ -356,7 +330,7 @@ body {
   color: white;
   font-size: 4.2rem;
   font-weight: var(--fw-700);
-  height: 34px;
+  height: 50px;
 }
 
 .nav-close-btn {
@@ -371,9 +345,13 @@ body {
 
 .navbar-link {
   color: var(--space-cadet-1);
-  font-size: var(--fs-8);
-  font-weight: var(--fw-600);
+  font-size: 16px;
+  font-weight: 500;
   padding-block: 12px;
+}
+
+.navbar-link:hover {
+  color: #0c10ea;
 }
 
 .overlay {
@@ -418,8 +396,9 @@ body {
 
 .hero-title {
   color: var(--white);
-  font-size: var(--fs-1);
-  margin-block-end: 20px;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
 }
 
 .hero-text {
