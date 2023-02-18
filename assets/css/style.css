@@ -49,7 +49,7 @@
     rgb(185, 205, 234)
   );
 
-  --gradient-2: linear-gradient(90deg, rgb(10, 182, 240), rgb(87, 183, 231));
+  --gradient-2: #4043eef8;
 
   /**
    * typography
@@ -198,13 +198,13 @@ body {
 }
 
 .btn {
-  background-image: var(--gradient-2);
+  background-color: var(--gradient-2);
   background-size: 200%;
   color: #fff;
   padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
-  border-radius: 0 25px;
+  border-radius: 5px;
   transition: var(--transition-2);
   width: fit-content;
   cursor: pointer;
@@ -212,6 +212,7 @@ body {
 
 .btn:is(:hover, :focus) {
   background-position: right;
+  background-color: #0c10ea;
 }
 
 .w-100 {
@@ -315,7 +316,7 @@ body {
   color: var(--color);
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-3);
-  height: 50px;
+  height: 70px;
 }
 
 .nav-open-btn {
