@@ -411,6 +411,11 @@ body {
   #ABOUT
 \*-----------------------------------*/
 
+.about-wrapper {
+  display: flex;
+  /* justify-content; */
+}
+
 .about-banner {
   margin-block-end: 30px;
 }
@@ -431,24 +436,53 @@ body {
 
 .stats-list {
   display: grid;
-  gap: 30px;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.stats-icon {
+  padding: 20px;
+  background: #f3f6ff;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.stat-img {
+  width: 28px;
+  height: 28px;
 }
 
 .stats-card {
-  text-align: center;
+  display: flex;
+  gap: 10px;
   padding: 15px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius-12);
 }
 
 .stats-title {
   color: var(--st-patricks-blue);
-  font-size: var(--fs-2);
-  font-weight: var(--fw-700);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .stats-text {
-  font-size: var(--fs-8);
+  font-size: 14px;
+}
+
+.swiper {
+  width: 90vw;
+  /* background-color: red; */
+}
+
+.swiper-wrapper {
+  justify-content: center;
+}
+
+.swiper-slide {
+  width: fit-content !important;
+  height: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 30px 50px;
+  border-radius: 20px;
 }
 
 /*-----------------------------------*\
@@ -808,7 +842,7 @@ body {
    */
 
   .stats-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /**
