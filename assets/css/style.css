@@ -489,67 +489,104 @@ body {
   #SERVICE
 \*-----------------------------------*/
 
-.service-list {
-  display: grid;
-  gap: 30px;
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-.service-card {
-  padding: 30px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius-12);
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #f3f6ff;
+  border: 1px solid #3c63da;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
 }
 
-.service-card .card-icon {
-  background-image: url('../images/service-banner-pattern.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: rgba(0, 0, 255, 0.698);
-  aspect-ratio: 1 / 1;
-  max-width: 165px;
-  display: grid;
-  place-content: center;
-  margin-inline: auto;
-  transition: var(--transition-1);
-}
-
-.service-card:hover .card-icon {
-  background-color: blue;
-}
-
-.service-card .card-icon ion-icon {
-  font-size: 5rem;
-  color: white;
-  --ionicon-stroke-width: 20px;
-  transition: var(--transition-1);
-}
-
-.service-card:hover .card-icon ion-icon {
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #3c63da;
   color: white;
 }
 
-.service-card .title {
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #3c63da;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.price-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.price-card {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: 0.5s;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.price-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.price-card-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.price-card-logo {
+  color: #0a82ec;
+  font-size: 30px;
+}
+
+.price-card-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price-items {
   text-align: center;
-  margin-block-end: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.84);
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.service-card .text {
-  text-align: center;
-  margin-block-end: 20px;
+.price-description {
+  font-size: 12px;
+}
+.price-description-items {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin-bottom: 10px;
 }
 
-.service-card .card-btn {
-  margin-inline: auto;
-  padding: 15px;
-  border: 1px solid var(--winter-sky);
-  border-radius: 50%;
-  color: var(--winter-sky);
-  transition: var(--transition-1);
-}
-
-.service-card .card-btn:is(:hover, :focus) {
-  color: var(--white);
-  background-color: var(--winter-sky);
+.price-circle-icon {
+  font-size: 25px;
+  width: 20px;
+  height: 20px;
+  color: green;
 }
 
 /*-----------------------------------*\
@@ -680,102 +717,120 @@ body {
 \*-----------------------------------*/
 
 .footer {
-  font-size: var(--fs-8);
-}
-
-.footer a {
-  color: inherit;
-}
-
-.footer-top {
-  background-image: url('../images/footer-bg.png'), var(--gradient-1);
-  background-repeat: no-repeat;
-  background-size: auto, 200%;
-  background-position: center, center;
-  color: var(--white);
-}
-
-.footer-brand {
-  margin-block-end: 30px;
-}
-
-.footer-brand .logo {
-  font-weight: var(--fw-700);
-  margin-block-end: 15px;
-}
-
-.footer-brand .text {
-  font-size: var(--fs-8);
-  margin-block-end: 20px;
-}
-
-.social-list {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  flex-direction: column;
 }
 
-.footer-top .social-link {
-  background-color: var(--white);
-  color: var(--winter-sky);
-  font-size: 18px;
-  padding: 8px;
-  border-radius: 50%;
-}
-
-.footer-top .social-link:is(:hover, :focus) {
-  background-image: var(--gradient-2);
-  color: var(--white);
-}
-
-.footer-list:not(:last-child) {
-  margin-block-end: 25px;
-}
-
-.footer-list-title {
-  font-family: var(--ff-source-sans-pro);
-  font-size: var(--fs-5);
-  font-weight: var(--fw-700);
-  margin-block-end: 15px;
-}
-
-.footer-link {
-  padding-block: 5px;
-}
-
-:is(.footer-link, .footer-item-link):not(address):is(:hover, :focus) {
-  text-decoration: underline;
-}
-
-.footer-item {
+.social-icon,
+.menu {
+  position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding-block: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
 }
 
-.footer-item-icon {
-  background-image: var(--gradient-2);
-  padding: 13px;
-  border-radius: 50%;
+.social-icon__item,
+.menu__item {
+  list-style: none;
 }
 
-.footer-bottom {
-  background-color: var(--space-cadet-2);
-  padding: 20px;
-  text-align: center;
-  color: var(--white);
-}
-
-.copyright-link {
+.social-icon__link {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 10px;
   display: inline-block;
-  text-decoration: underline;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
 }
 
-.copyright-link:is(:hover, :focus) {
+.menu__link {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
   text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('https://i.ibb.co/wQZVxxk/wave.png');
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
 }
 
 /*-----------------------------------*\
