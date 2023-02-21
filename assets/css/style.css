@@ -580,6 +580,7 @@ body {
   display: grid;
   grid-template-columns: 30px auto;
   margin-bottom: 10px;
+  place-items: center;
 }
 
 .price-circle-icon {
@@ -587,6 +588,91 @@ body {
   width: 20px;
   height: 20px;
   color: green;
+}
+
+/*-----------------------------------*\
+  #PROCESS
+\*-----------------------------------*/
+.process-container {
+  margin-top: 80px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.process-timeline-item {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #0c10ea 0%, #069b17 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px !important;
+  counter-increment: section;
+  position: relative;
+  color: black;
+}
+
+.process-timeline-item::before {
+  content: counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 3px solid #1876f1;
+  text-align: center;
+  line-height: 1.25em;
+  color: black;
+  font-size: 1em;
+}
+
+.process-timeline-item:last-child::before {
+  background-color: orange;
+  color: white;
+}
+
+.process-timeline-item:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+
+.process-timeline-item:nth-child(odd)::before {
+  left: 100%;
+  margin-left: -19px;
+}
+
+.process-timeline-item:nth-child(even) {
+  border-left: 3px solid;
+  padding-left: 0;
+}
+
+.process-timeline-item:nth-child(even)::before {
+  right: 100%;
+  margin-right: -19px;
+}
+
+.process-timeline-item:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.process-timeline-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.process-timeline-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.process-timeline-des {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 /*-----------------------------------*\
