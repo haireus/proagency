@@ -629,6 +629,11 @@ body {
   font-size: 1em;
 }
 
+.process-timeline-item:last-child::before {
+  background-color: orange;
+  color: white;
+}
+
 .process-timeline-item:nth-child(odd) {
   border-right: 3px solid;
   padding-left: 0;
