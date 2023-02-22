@@ -32,18 +32,18 @@ for (let i = 0; i < navbarLinks.length; i++) {
  * when window scroll down to 400px
  */
 
-const header = document.querySelector('[data-header]');
-const goTopBtn = document.querySelector('[data-go-top]');
+// const header = document.querySelector('[data-header]');
+// const goTopBtn = document.querySelector('[data-go-top]');
 
-window.addEventListener('scroll', function () {
-  if (window.scrollY >= 400) {
-    header.classList.add('active');
-    goTopBtn.classList.add('active');
-  } else {
-    header.classList.remove('active');
-    goTopBtn.classList.remove('active');
-  }
-});
+// window.addEventListener('scroll', function () {
+//   if (window.scrollY >= 400) {
+//     header.classList.add('active');
+//     goTopBtn.classList.add('active');
+//   } else {
+//     header.classList.remove('active');
+//     goTopBtn.classList.remove('active');
+//   }
+// });
 
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -63,3 +63,20 @@ function openCity(evt, cityName) {
 }
 
 document.getElementById('defaultOpen').click();
+
+//--- Accordion --- //
+const items = document.querySelectorAll('.accordion button');
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (let i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
