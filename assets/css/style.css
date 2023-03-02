@@ -31,8 +31,8 @@
    * typography
    */
 
-  --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-source-sans-pro: "Source Sans Pro", sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
 
   --fs-1: 4.2rem;
   --fs-2: 3.8rem;
@@ -216,7 +216,7 @@ body {
 .section-title {
   color: var(--st-patricks-blue);
   font-size: var(--fs-3);
-  margin-block-end: 60px;
+  margin-block-end: 30px;
   max-width: max-content;
   margin-inline: auto;
 }
@@ -226,7 +226,7 @@ body {
 }
 
 .underline::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -20px;
   left: 50%;
@@ -374,8 +374,8 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url('../images/hero-bg-bottom.png'),
-    url('../images/hero-bg.png'), var(--gradient-1);
+  background-image: url("../images/hero-bg-bottom.png"),
+    url("../images/hero-bg.png"), var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: -280px bottom, center, center;
   background-size: auto, cover, auto;
@@ -396,15 +396,17 @@ body {
 
 .hero-title {
   color: var(--white);
-  font-size: 56px;
+  font-size: 36px;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 .hero-text {
   color: var(--white);
-  font-size: var(--fs-8);
+  margin-top: 10px;
+  font-size: 16px;
   margin-block-end: 30px;
+  line-height: 20px;
 }
 
 /*-----------------------------------*\
@@ -436,7 +438,7 @@ body {
 
 .stats-list {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 
@@ -479,9 +481,9 @@ body {
 
 .swiper-slide {
   width: fit-content !important;
-  height: fit-content;
+  height: fit-content !important;
   border: 1px solid rgba(0, 0, 0, 0.13);
-  padding: 30px 50px;
+  padding: 15px 25px;
   border-radius: 20px;
 }
 
@@ -493,8 +495,10 @@ body {
 .tab {
   overflow: hidden;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -504,7 +508,7 @@ body {
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  padding: 10px 16px;
+  padding: 5px 8px;
   transition: 0.3s;
 }
 
@@ -530,7 +534,7 @@ body {
 .price-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -603,10 +607,11 @@ body {
 }
 
 .process-container {
-  margin-top: 80px;
+  margin-top: 40px;
   display: grid;
   gap: 100px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding: 0px 10px;
 }
 
 .process-timeline-item {
@@ -617,7 +622,7 @@ body {
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
-  padding: 40px !important;
+  padding: 20px !important;
   counter-increment: section;
   position: relative;
   color: black;
@@ -682,6 +687,7 @@ body {
 .process-timeline-des {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.9);
+  line-height: 20px;
 }
 
 /*-----------------------------------*\
@@ -691,7 +697,7 @@ body {
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
-.accordion .accordion-item button[aria-expanded='true'] {
+.accordion .accordion-item button[aria-expanded="true"] {
   border-bottom: 1px solid #03b5d2;
 }
 .accordion button {
@@ -733,7 +739,7 @@ body {
 .accordion button .icon::before {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   top: 9px;
   left: 5px;
   width: 10px;
@@ -743,20 +749,20 @@ body {
 .accordion button .icon::after {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   top: 5px;
   left: 9px;
   width: 2px;
   height: 10px;
   background: currentColor;
 }
-.accordion button[aria-expanded='true'] {
+.accordion button[aria-expanded="true"] {
   color: #03b5d2;
 }
-.accordion button[aria-expanded='true'] .icon::after {
+.accordion button[aria-expanded="true"] .icon::after {
   width: 0;
 }
-.accordion button[aria-expanded='true'] + .accordion-content {
+.accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
   max-height: 9em;
   transition: all 200ms linear;
@@ -888,7 +894,7 @@ body {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url('https://i.ibb.co/wQZVxxk/wave.png');
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
   background-size: 1000px 100px;
 }
 
@@ -995,6 +1001,37 @@ body {
     align-items: center;
     gap: 5px;
     margin-inline-start: auto;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  /* Style the tab */
+  .tab {
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    padding: 10px 16px;
+  }
+
+  .price-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .process-container {
+    margin-top: 80px;
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .process-timeline-item {
+    padding: 40px !important;
   }
 
   /**
