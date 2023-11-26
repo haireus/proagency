@@ -43,10 +43,22 @@
 
       gtag('config', 'G-G8SDV8LJ20');
     </script>
+    <!-- Reddit Pixel -->
+    <script>
+      !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_5rnkow0h', {"optOut":false,"useDecimalCurrencyValues":true});rdt('track', 'PageVisit');
+    </script>
+    <!-- DO NOT MODIFY UNLESS TO REPLACE A USER IDENTIFIER -->
+    <!-- End Reddit Pixel -->
   </head>
 
   <body id="top">
     <header class="header" data-header>
+      <div class="container">
+        <div class="language">
+          <button class="translate" id="en-gb"><img class="flag" src="./assets/images/flag-usa.jpg" alt=""></button>
+          <button class="translate" id="zh-tw"><img class="flag" src="./assets/images/flag-china.jpg" alt=""></button>
+        </div>
+      </div>
       <div class="container">
         <div class="overlay" data-overlay></div>
         <a href="#">
@@ -76,30 +88,26 @@
 
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+              <a href="#home" class="lang navbar-link" key="HOME" data-navbar-link></a>
             </li>
 
             <li class="navbar-item">
-              <a href="#about" class="navbar-link" data-navbar-link>Account</a>
+              <a href="#about" class="lang navbar-link" key="ACCOUNT" data-navbar-link></a>
             </li>
 
             <li class="navbar-item">
-              <a href="#process" class="navbar-link" data-navbar-link
-                >Process</a
-              >
+              <a href="#process" class="lang navbar-link" key="PROCESS" data-navbar-link></a>
             </li>
 
             <li class="navbar-item">
-              <a href="#questions" class="navbar-link" data-navbar-link
-                >Questions</a
-              >
+              <a href="#questions" class="lang navbar-link" key="QUESTION" data-navbar-link></a>
             </li>
           </ul>
         </nav>
 
         <a href="#contact-us" class="btn">
           <ion-icon name="chatbubbles-outline"></ion-icon>
-          <span>Contact us</span>
+          <span class="lang" key="CONTACT"></span>
         </a>
 
         <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
@@ -113,20 +121,14 @@
         <section class="hero" id="home">
           <div class="container">
             <div class="hero-content" data-aos="fade-right">
-              <h2 class="h2 hero-title">Rental Facebook</h2>
-              <h2 class="h2 hero-title">AD Accounts</h2>
-              <h2 class="h2 hero-title">Services</h2>
+              <h2 class="h2 hero-title lang" key="TITLE1A"></h2>
+              <h2 class="h2 hero-title lang" key="TITLE1B"></h2>
+              <h2 class="h2 hero-title lang" key="TITLE1C"></h2>
 
-              <p class="hero-text">
-                Whether you are looking to enhance your brand’s social media
-                presence or drive targeted leads through social media
-                advertising, our social media advertising services can help you
-                hit your goals.
+              <p class="hero-text lang" key="DESC1">
               </p>
 
-              <a class="btn" href="https://t.me/ntvanee" target="_blank"
-                >Start now</a
-              >
+              <a class="btn lang" key="START" href="https://t.me/ntvanee" target="_blank"></a>
             </div>
 
             <figure class="hero-banner">
@@ -160,14 +162,9 @@
             </figure>
 
             <div class="about-content">
-              <h2 class="h2 section-title">Facebook Account</h2>
+              <h2 class="h2 section-title lang" key="TITLE2"></h2>
 
-              <p class="about-text">
-                Facebook is gradually changing and it is more difficult and
-                affects each business's Advertising. We have many years of
-                advertising experience and have many ways to overcome all
-                difficulties when customers advertise.
-              </p>
+              <p class="about-text lang" key="DESC2"></p>
 
               <ul class="stats-list">
                 <li class="stats-card">
@@ -180,9 +177,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">All Product</h3>
-                    <p class="stats-text">
-                      Allow all White hat, light Grey hat products.
+                    <h3 class="h3 stats-title lang" key="STATUS1"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS1">
                     </p>
                   </div>
                 </li>
@@ -197,10 +193,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">Refund</h3>
-                    <p class="stats-text">
-                      We will refund amount left when you want stop work with
-                      our ads account.
+                    <h3 class="h3 stats-title lang" key="STATUS2"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS2">
                     </p>
                   </div>
                 </li>
@@ -215,8 +209,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">VAT</h3>
-                    <p class="stats-text">ZERO %VAT.</p>
+                    <h3 class="h3 stats-title lang" key="STATUS3"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS3"></p>
                   </div>
                 </li>
 
@@ -230,9 +224,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">Unlimited</h3>
-                    <p class="stats-text">
-                      Unlimited spending right after initialization.
+                    <h3 class="h3 stats-title lang" key="STATUS4"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS4">
                     </p>
                   </div>
                 </li>
@@ -247,8 +240,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">Security</h3>
-                    <p class="stats-text">Campaign security, quick top up.</p>
+                    <h3 class="h3 stats-title lang" key="STATUS5"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS5"></p>
                   </div>
                 </li>
                 <li class="stats-card">
@@ -261,9 +254,8 @@
                     />
                   </div>
                   <div class="stats-text-wrapper">
-                    <h3 class="h3 stats-title">Contract</h3>
-                    <p class="stats-text">
-                      Free fanpage appeal, have business contract.
+                    <h3 class="h3 stats-title lang" key="STATUS6"></h3>
+                    <p class="stats-text lang" key="DESC-STATUS6">
                     </p>
                   </div>
                 </li>
@@ -318,24 +310,25 @@
 
         <section class="section service" id="services">
           <div class="container">
-            <h2 class="h2 section-title underline">My services include</h2>
+            <h2 class="h2 section-title underline lang" key="TITLE3"></h2>
 
             <div class="tab">
               <button
-                class="tablinks"
+                class="tablinks lang"
                 id="defaultOpen"
                 onclick="openCity(event, 'personal')"
+                key="TAB1"
               >
-                Personal Ads account
+              
               </button>
-              <button class="tablinks" onclick="openCity(event, 'business')">
-                Business Manager
+              <button class="tablinks lang" key="TAB2" onclick="openCity(event, 'business')">
+                
               </button>
-              <button class="tablinks" onclick="openCity(event, 'fanpage')">
-                Fanpage
+              <button class="tablinks lang" key="TAB3" onclick="openCity(event, 'fanpage')">
+                
               </button>
-              <button class="tablinks" onclick="openCity(event, 'profile')">
-                Profile
+              <button class="tablinks lang" key="TAB4" onclick="openCity(event, 'profile')">
+                
               </button>
             </div>
 
@@ -347,26 +340,27 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (new)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-NEW"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Limit $50</div>
+                  <div class="price-items lang" key="LIMIT-50"></div>
 
                   <ul class="price-description">
-                    <li class="price-description-items">
+                    <li class="price-description-items" >
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Never used before, with the ability to change time zone
-                      and currency.
+                      <span class="lang" key="DESC1-LIMIT-50-250"></span>
+                      
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $50 per day.
+                      <span class="lang" key="DESC2-LIMIT-50"></span>
+                      
                     </li>
 
                     <li class="price-description-items">
@@ -374,7 +368,9 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Regular spending can increase the limit.
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+
+                      
                     </li>
                   </ul>
                 </li>
@@ -384,10 +380,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (new)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-NEW"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Limit $250</div>
+                  <div class="price-items lang" key="LIMIT-250"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -395,15 +391,16 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Never used before, with the ability to change time zone
-                      and currency.
+                      <span class="lang" key="DESC1-LIMIT-50-250"></span>
+
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $250 per day.
+                      <span class="lang" key="DESC2-LIMIT-250"></span>
+                      
                     </li>
 
                     <li class="price-description-items">
@@ -411,7 +408,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Regular spending can increase the limit.
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
                     </li>
                   </ul>
                 </li>
@@ -421,10 +418,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (new)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-NEW"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Limit $1500</div>
+                  <div class="price-items lang" key="LIMIT-1500"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -432,15 +429,15 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Never used before, with the ability to change time zone
-                      and currency.
+                      <span class="lang" key="DESC1-LIMIT-50-250"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $1500 per day.
+                      <span class="lang" key="DESC2-LIMIT-1500"></span>
+                      
                     </li>
                   </ul>
                 </li>
@@ -450,10 +447,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (new)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-NEW"></span>
                   </div>
                   <hr />
-                  <div class="price-items">No limit</div>
+                  <div class="price-items lang" key="LIMIT-NO"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -461,15 +458,14 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Never used before, with the ability to change time zone
-                      and currency.
+                      <span class="lang" key="DESC1-LIMIT-50-250"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $5000 to Unlimited per day.
+                      <span class="lang" key="DESC2-LIMIT-NO"></span>
                     </li>
                   </ul>
                 </li>
@@ -479,10 +475,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (old)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-OLD"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Limit $50</div>
+                  <div class="price-items lang" key="LIMIT-50"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -490,53 +486,14 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Used for previous White hat campaigns with many successful
-                      payouts, high reliability and good health.
+                      <span class="lang" key="DESC-TITLE-OLD"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $50 USD per day.
-                    </li>
-
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Regular spending can increase the limit.
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="price-card">
-                  <div class="price-card-header">
-                    <ion-icon
-                      name="logo-facebook"
-                      class="price-card-logo"
-                    ></ion-icon>
-                    <span class="price-card-title">Personal account (old)</span>
-                  </div>
-                  <hr />
-                  <div class="price-items">Limit $250</div>
-
-                  <ul class="price-description">
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Used for previous White hat campaigns with many successful
-                      payouts, high reliability and good health.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Can spend up to $250 per day.
+                      <span class="lang" key="DESC2-LIMIT-50"></span>
                     </li>
 
                     <li class="price-description-items">
@@ -544,7 +501,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Regular spending can increase the limit.
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
                     </li>
                   </ul>
                 </li>
@@ -555,10 +512,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (old)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-OLD"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Limit $1500</div>
+                  <div class="price-items lang" key="LIMIT-250"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -566,15 +523,25 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Used for previous White hat campaigns with many successful
-                      payouts, high reliability and good health.
+                      <span class="lang" key="DESC-TITLE-OLD"></span>
+
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $1500 per day.
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+
+                    </li>
+
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+                      
                     </li>
                   </ul>
                 </li>
@@ -585,10 +552,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Personal account (old)</span>
+                    <span class="price-card-title lang" key="TAB1-TITLE-OLD"></span>
                   </div>
                   <hr />
-                  <div class="price-items">No Limit</div>
+                  <div class="price-items lang" key="LIMIT-1500"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -596,15 +563,44 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Used for previous White hat campaigns with many successful
-                      payouts, high reliability and good health.
+                      <span class="lang" key="DESC-TITLE-OLD"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend from 5000 usd to unlimited per day.
+                      <span class="lang" key="DESC2-LIMIT-1500"></span>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="price-card">
+                  <div class="price-card-header">
+                    <ion-icon
+                      name="logo-facebook"
+                      class="price-card-logo"
+                    ></ion-icon>
+                    <span class="price-card-title lang" key="TAB1-TITLE-OLD"></span>
+                  </div>
+                  <hr />
+                  <div class="price-items lang" key="LIMIT-NO"></div>
+
+                  <ul class="price-description">
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-TITLE-OLD"></span>
+
+                    </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC1-NOLIMIT-OLD"></span>
                     </li>
                   </ul>
                 </li>
@@ -619,12 +615,12 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (normal)</span
+                    <span class="price-card-title lang" key="BM-NORMAL"
+                      ></span
                     >
                   </div>
                   <hr />
-                  <div class="price-items">Limit $50</div>
+                  <div class="price-items lang" key="LIMIT-50"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -632,60 +628,171 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Created with reputable profiles, good health, long life.
+                      <span class="lang" key="DESC-BM-NORMAL-1"></span>
+                      
                     </li>
                     <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-BM-50"></span>
+                    </li>
+
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+
+                    </li>
+                  </ul>
+                </li>
+                <li class="price-card">
+                  <div class="price-card-header">
+                    <ion-icon
+                      name="logo-facebook"
+                      class="price-card-logo"
+                    ></ion-icon>
+                    <span class="price-card-title lang" key="BM-NORMAL"
+                      ></span
+                    >
+                  </div>
+                  <hr />
+                  <div class="price-items lang" key="LIMIT-250"></div>
+
+                  <ul class="price-description">
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      
+                      <span class="lang" key="DESC-BM-NORMAL-1"></span>
+
+                    </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-BM-250"></span>
+
+                    </li>
+
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="price-card">
+                  <div class="price-card-header">
+                    <ion-icon
+                      name="logo-facebook"
+                      class="price-card-logo"
+                    ></ion-icon>
+                    <span class="price-card-title lang" key="BM-NORMAL"
+                      ></span
+                    >
+                  </div>
+                  <hr />
+                  <div class="price-items lang" key="LIMIT-1500"></div>
+
+                  <ul class="price-description">
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      
+                      <span class="lang" key="DESC-BM-NORMAL-1"></span>
+
+                    </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-BM-1500"></span>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="price-card">
+                  <div class="price-card-header">
+                    <ion-icon
+                      name="logo-facebook"
+                      class="price-card-logo"
+                    ></ion-icon>
+                    <span class="price-card-title lang" key="BM-NORMAL"
+                      ></span
+                    >
+                  </div>
+                  <hr />
+                  <div class="price-items lang" key="LIMIT-NO"></div>
+
+                  <ul class="price-description">
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      
+                      <span class="lang" key="DESC-BM-NORMAL-1"></span>
+
+                    </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-BM-NORMAL-NOLIMIT"></span>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="price-card">
+                  <div class="price-card-header">
+                    <ion-icon
+                      name="logo-facebook"
+                      class="price-card-logo"
+                    ></ion-icon>
+                    <span class="price-card-title lang" key="BM-VERIFY"
+                      ></span
+                    >
+                  </div>
+                  <hr />
+                  <div class="price-items lang" key="LIMIT-50"></div>
+
+                  <ul class="price-description">
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC-BM-OLD-1"></span>
+                    </li>
+                    <li class="price-description-items lang">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
                       Can spend up to $50 per day.
                     </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
 
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Regular spending can increase the limit.
-                    </li>
-                  </ul>
-                </li>
-                <li class="price-card">
-                  <div class="price-card-header">
-                    <ion-icon
-                      name="logo-facebook"
-                      class="price-card-logo"
-                    ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (normal)</span
-                    >
-                  </div>
-                  <hr />
-                  <div class="price-items">Limit $250</div>
-
-                  <ul class="price-description">
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Created with reputable profiles, good health, long life.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Can spend up to $250 per day
-                    </li>
-
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Regular spending can increase the limit.
                     </li>
                   </ul>
                 </li>
@@ -696,12 +803,12 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (normal)</span
+                    <span class="price-card-title lang" key="BM-VERIFY"
+                      ></span
                     >
                   </div>
                   <hr />
-                  <div class="price-items">Limit $1500</div>
+                  <div class="price-items lang" kye="LIMIT-250"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -709,14 +816,22 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Created with reputable profiles, good health, long life.
+                      <span class="lang" key="DESC-BM-OLD-1"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $1500 per day
+                      <span class="lang" key="DESC2-LIMIT-250"></span>
+                    </li>
+                    <li class="price-description-items">
+                      <ion-icon
+                        name="checkmark-circle-outline"
+                        class="price-circle-icon"
+                      ></ion-icon>
+                      <span class="lang" key="DESC3-LIMIT-50-250"></span>
+
                     </li>
                   </ul>
                 </li>
@@ -727,12 +842,12 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (normal)</span
+                    <span class="price-card-title lang" key="BM-VERIFY"
+                      ></span
                     >
                   </div>
                   <hr />
-                  <div class="price-items">No limit</div>
+                  <div class="price-items lang" key="LIMIT-1500"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -740,14 +855,15 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Created with reputable profiles, good health, long life.
+                      <span class="lang" key="DESC-BM-OLD-1"></span>
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend from $5000 to unlimited per day.
+                      <span class="lang" key="DESC2-LIMIT-1500"></span>
+
                     </li>
                   </ul>
                 </li>
@@ -758,12 +874,12 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (verified)</span
+                    <span class="price-card-title lang" key="BM-VERIFY"
+                      ></span
                     >
                   </div>
                   <hr />
-                  <div class="price-items">Limit $50</div>
+                  <div class="price-items lang" key="LIMIT-NO"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -771,129 +887,15 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Verified with Facebook and has a "blue mark," extremely
-                      good health, and is great to use for long-term White hat
-                      and Black hat campaigns.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Can spend up to $50 per day.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Regular spending can increase the limit.
-                    </li>
-                  </ul>
-                </li>
+                      <span class="lang" key="DESC-BM-OLD-1"></span>
 
-                <li class="price-card">
-                  <div class="price-card-header">
-                    <ion-icon
-                      name="logo-facebook"
-                      class="price-card-logo"
-                    ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (verified)</span
-                    >
-                  </div>
-                  <hr />
-                  <div class="price-items">Limit $250</div>
-
-                  <ul class="price-description">
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Verified with Facebook and has a "blue mark," extremely
-                      good health, and is great to use for long-term White hat
-                      and Black hat campaigns.
                     </li>
                     <li class="price-description-items">
                       <ion-icon
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Can spend up to $250 per day.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Regular spending can increase the limit.
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="price-card">
-                  <div class="price-card-header">
-                    <ion-icon
-                      name="logo-facebook"
-                      class="price-card-logo"
-                    ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (verified)</span
-                    >
-                  </div>
-                  <hr />
-                  <div class="price-items">Limit $1500</div>
-
-                  <ul class="price-description">
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Verified with Facebook and has a "blue mark," extremely
-                      good health, and is great to use for long-term White hat
-                      and Black hat campaigns.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Can spend up to $1500 per day.
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="price-card">
-                  <div class="price-card-header">
-                    <ion-icon
-                      name="logo-facebook"
-                      class="price-card-logo"
-                    ></ion-icon>
-                    <span class="price-card-title"
-                      >Business Manager (verified)</span
-                    >
-                  </div>
-                  <hr />
-                  <div class="price-items">No limit</div>
-
-                  <ul class="price-description">
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Verified with Facebook and has a "blue mark," extremely
-                      good health, and is great to use for long-term White hat
-                      and Black hat campaigns.
-                    </li>
-                    <li class="price-description-items">
-                      <ion-icon
-                        name="checkmark-circle-outline"
-                        class="price-circle-icon"
-                      ></ion-icon>
-                      Can spend from $5000 to unlimited per day.
+                      <span class="lang" key="DESC-BM-OLD-NOLIMIT"></span>
                     </li>
                   </ul>
                 </li>
@@ -908,10 +910,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Fanpage</span>
+                    <span class="price-card-title lang" key="TAB3"></span>
                   </div>
                   <hr />
-                  <div class="price-items">New fanpage</div>
+                  <div class="price-items lang" key="PAGE-NEW"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -919,8 +921,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Created on reputable profiles, can be used immediately and
-                      can be renamed, no followers.
+                      <span class="lang" key="DESC-NEW"></span>
                     </li>
                   </ul>
                 </li>
@@ -930,10 +931,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Fanpage</span>
+                    <span class="price-card-title lang" key="TAB3"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Old fanpage</div>
+                  <div class="price-items lang" key="PAGE-OLD"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -941,8 +942,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Created a long time ago and has long-standing posts, has a
-                      real following.
+                      <span class="lang" key="DESC-OLD"></span>
                     </li>
                   </ul>
                 </li>
@@ -953,10 +953,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Fanpage</span>
+                    <span class="price-card-title lang" key="TAB3"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Verified fanpage</div>
+                  <div class="price-items lang" key="PAGE-VERIFY"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -964,8 +964,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Verified with Facebook and has a "blue mark," extremely
-                      good health.
+                      <span class="lang" key="DESC-VERIFY"></span>
                     </li>
                   </ul>
                 </li>
@@ -979,10 +978,10 @@
                       name="logo-facebook"
                       class="price-card-logo"
                     ></ion-icon>
-                    <span class="price-card-title">Profile</span>
+                    <span class="price-card-title lang" key="TAB3"></span>
                   </div>
                   <hr />
-                  <div class="price-items">Profile</div>
+                  <div class="price-items lang" key="TAB3"></div>
 
                   <ul class="price-description">
                     <li class="price-description-items">
@@ -990,8 +989,7 @@
                         name="checkmark-circle-outline"
                         class="price-circle-icon"
                       ></ion-icon>
-                      Crafted and cared for by us, in good health, verified for
-                      instant advertising use.
+                      <span class="lang" key="DESC-PROFILE"></span>
                     </li>
                   </ul>
                 </li>
@@ -1006,45 +1004,32 @@
 
         <section class="section process" id="process">
           <div class="container">
-            <h2 class="h2 section-title underline">Process</h2>
-            <p>
-              My services include all thing for run ads : VPS or adspower (clean
-              proxy), strong profile to keep ads account, strong ads account for
-              run ads, Credit card avail in ads acc, we provide page too if you
-              need. you just need care about performance of your ads
+            <h2 class="h2 section-title underline lang" key="TITLE-PROCESS"></h2>
+            <p class="lang" key="DESC-PROCESS">
             </p>
 
             <div class="process-container">
               <div class="process-timeline">
                 <div class="process-timeline-item">
-                  <div class="process-timeline-title">Test your ads</div>
-                  <p class="process-timeline-des">
-                    I will test your ads in my ads acc to make sure your ads
-                    work in my ads acc or not.
+                  <div class="process-timeline-title lang" key="PROCESS-STEP-1-TITLE"></div>
+                  <p class="process-timeline-des lang" key="PROCESS-STEP-1-DESC">
                   </p>
                 </div>
                 <div class="process-timeline-item">
-                  <div class="process-timeline-title">Prepare Ads Account</div>
-                  <p class="process-timeline-des">
-                    If your ads work in my ads acc. I will prepare ads acc and
-                    show you to check my ads acc.
+                  <div class="process-timeline-title lang" key="PROCESS-STEP-2-TITLE"></div>
+                  <p class="process-timeline-des lang" key="PROCESS-STEP-2-DESC">
                   </p>
                 </div>
 
                 <div class="process-timeline-item">
-                  <div class="process-timeline-title">Payment</div>
-                  <p class="process-timeline-des">
-                    If you don't have problem with my ads acc and want start.
-                    You send money to start.
+                  <div class="process-timeline-title lang" key="PROCESS-STEP-3-TITLE"></div>
+                  <p class="process-timeline-des lang" key="PROCESS-STEP-3-DESC">
                   </p>
                 </div>
 
                 <div class="process-timeline-item">
-                  <div class="process-timeline-title">Note</div>
-                  <p class="process-timeline-des">
-                    Campaigns will be checked first to save time for both
-                    parties. You will also be able to check our account first,
-                    just in case someone impersonates us for SCAM.
+                  <div class="process-timeline-title lang" key="PROCESS-STEP-4-TITLE"></div>
+                  <p class="process-timeline-des lang" key="PROCESS-STEP-4-DESC">
                   </p>
                 </div>
               </div>
@@ -1071,7 +1056,7 @@
 
         <section class="section features" id="features">
           <div class="container">
-            <h2 class="h2 section-title underline">Our Features</h2>
+            <h2 class="h2 section-title underline lang" key="FEATURE-TITLE"></h2>
 
             <ul class="features-list">
               <li>
@@ -1081,9 +1066,9 @@
                   </div>
 
                   <div class="content">
-                    <h3 class="h3 title">Invoice Trusted Ads Accounts</h3>
+                    <h3 class="h3 title lang" key="F-1-TITLE">Invoice Trusted Ads Accounts</h3>
 
-                    <p class="text">
+                    <p class="text lang" key="F-1-DESC">
                       Accounts are provided directly by authorized agency, with
                       high trust factor, speediest ads approval time and easiest
                       review progress for hard ads like DROP, P.O.D,
@@ -1100,9 +1085,9 @@
                   </div>
 
                   <div class="content">
-                    <h3 class="h3 title">Fast, Low and Transparent Fee</h3>
+                    <h3 class="h3 title lang" key="F-2-TITLE">Fast, Low and Transparent Fee</h3>
 
-                    <p class="text">
+                    <p class="text lang" key="F-2-DESC">
                       247 same day top up with low and transparent fee. Support
                       many kinds of payment method.
                     </p>
@@ -1132,9 +1117,9 @@
                   </div>
 
                   <div class="content">
-                    <h3 class="h3 title">Total Ad Control</h3>
+                    <h3 class="h3 title lang" key="F-3-TITLE">Total Ad Control</h3>
 
-                    <p class="text">
+                    <p class="text lang" key="F-3-DESC">
                       Ads accounts will be shared to you, you can check anytime
                       and will in total control of ads, cost, and customer data!
                     </p>
@@ -1149,8 +1134,8 @@
                   </div>
 
                   <div class="content">
-                    <h3 class="h3 title">Support & Consultancy</h3>
-                    <p class="text">
+                    <h3 class="h3 title lang" key="F-4-TITLE">Support & Consultancy</h3>
+                    <p class="text lang" key="F-4-DESC">
                       Our services include full technical supports from 10 years
                       experienced expert on FB ads for helping you set up a
                       running system and create ads following FB policies.
@@ -1170,17 +1155,17 @@
           <div class="container">
             <div></div>
             <div>
-              <h2>Frequently Asked Questions</h2>
+              <h2 class="lang" key="QUESTION-TITLE">Frequently Asked Questions</h2>
               <div class="accordion">
                 <div class="accordion-item">
                   <button id="accordion-button-1" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-1">
                       Can your account run Black Hat and Gray Hat campaigns?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-1">
                       Yes, our account can be used for Black Hat and Grey Hat
                       campaigns.
                     </p>
@@ -1188,13 +1173,13 @@
                 </div>
                 <div class="accordion-item">
                   <button id="accordion-button-2" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-2">
                       What types of accounts do you provide?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-2">
                       We provide all account types: Personal accounts with
                       spending history, BM accounts and agency accounts.
                     </p>
@@ -1202,19 +1187,19 @@
                 </div>
                 <div class="accordion-item">
                   <button id="accordion-button-3" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-3">
                       What happens when the account is locked? Can the money in
                       that account be transferred to the new account?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-3">
                       When the account is locked, our staff will provide you
                       with a new account completely free of charge.
                     </p>
 
-                    <p>
+                    <p class="lang" key="A-3A">
                       The balance in the old account will be transferred to the
                       new account. This applies to both profile accounts and
                       page accounts.
@@ -1223,13 +1208,13 @@
                 </div>
                 <div class="accordion-item">
                   <button id="accordion-button-4" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-4">
                       What is your account limit??
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-4">
                       Our account has spending limits of $1500, 250 and no limit
                       daily.
                     </p>
@@ -1237,17 +1222,17 @@
                 </div>
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-5">
                       How do I use your account?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-5">
                       We set up everything and ad accounts in VPS, RDP or
                       Adspower.
                     </p>
-                    <p>
+                    <p class="lang" key="A-5A">
                       You will be granted access to these software to control
                       and use our account.
                     </p>
@@ -1256,30 +1241,30 @@
 
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-6">
                       Which payment method do you use?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>We use USDT ,BTC, Payoneer for payment.</p>
+                    <p class="lang" key="A-6">We use USDT ,BTC, Payoneer for payment.</p>
                   </div>
                 </div>
 
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-7">
                       How to top up your account?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-7">
                       You send us money after checking our account. Then our
                       staff will activate the account for you to use.
                     </p>
 
-                    <p>
+                    <p class="lang" key="A-7A">
                       When your deposit has almost been spent, our staff will
                       notify you to deposit more so that your campaign will not
                       be interrupted.
@@ -1289,19 +1274,19 @@
 
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-8">
                       What is your refund process?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-8">
                       When you want to stop cooperation. Your support staff will
                       stop the campaign and aggregate your spending, calculate
                       the balance and confirm the balance with you.
                     </p>
 
-                    <p>
+                    <p class="lang" key="A-8A">
                       If there are no problems, the request will be forwarded to
                       the accounting department for completion. This process
                       will take 1-2 days.
@@ -1311,30 +1296,30 @@
 
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-9">
                       What is the service fee?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>
+                    <p class="lang" key="A-9">
                       We charge a service fee. This fee is 8-12% for White hat
                       campaigns and 10-12% for Black hat campaigns.
                     </p>
-                    <p>This fee may change if you spend well and stably.</p>
+                    <p class="lang" key="A-9A">This fee may change if you spend well and stably.</p>
                   </div>
                 </div>
 
                 <div class="accordion-item">
                   <button id="accordion-button-5" aria-expanded="false">
-                    <span class="accordion-title">
+                    <span class="accordion-title lang" key="Q-10">
                       What is the minimum spend to use your service?
                     </span>
                     <span class="icon" aria-hidden="true"></span>
                   </button>
                   <div class="accordion-content">
-                    <p>$100 is the minimum spent on our account.</p>
-                    <p>
+                    <p class="lang" key="A-10">$100 is the minimum spent on our account.</p>
+                    <p class="lang" key="A-10A">
                       You can test campaigns with a smaller budget, but you need
                       to make sure to scale them after testing.
                     </p>
@@ -1425,14 +1410,14 @@
       </div>
 
       <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link lang" href="#" key="HOME">Home</a></li>
         <li class="menu__item">
-          <a class="menu__link" href="#about">Account</a>
+          <a class="menu__link lang" href="#about" key="ACCOUNT">Account</a>
         </li>
-        <li class="menu__item"><a class="menu__link" href="#">Process</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Question</a></li>
+        <li class="menu__item"><a class="menu__link lang" href="#process" key="PROCESS">Process</a></li>
+        <li class="menu__item"><a class="menu__link lang" href="#questions" key="QUESTION">Question</a></li>
         <li class="menu__item">
-          <a class="menu__link" href="https://t.me/ntvanee">Contact</a>
+          <a class="menu__link lang" href="https://t.me/ntvanee" key="CONTACT">Contact</a>
         </li>
       </ul>
       <p>&copy;2023 Pro Agency | All Rights Reserved</p>
@@ -1447,6 +1432,7 @@
     </a> -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/language.js"></script>
     <script src="./assets/js/swiper.js"></script>
     <script src="./assets/js/script.js"></script>
 
