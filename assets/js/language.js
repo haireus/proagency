@@ -116,7 +116,7 @@ var arrLang = {
       "A-8A": "If there are no problems, the request will be forwarded to the accounting department for completion. This process will take 1-2 days.",
 
       "Q-9": "What is the service fee?",
-      "A-9": "We charge a service fee. This fee is 5-12% for White hat campaigns and 10-12% for Black hat campaigns.",
+      "A-9": "We charge a service fee. This fee is 5-8% for White hat campaigns and 6-10% for Black hat campaigns.",
       "A-9A": "This fee may change if you spend well and stably.",
 
       "Q-10": "What is the minimum spend to use your service?",
