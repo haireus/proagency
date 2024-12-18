@@ -930,6 +930,38 @@ body {
   color: white;
 }
 
+.contact-social-mail {
+  width: 260px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  color: #01a3e3;
+}
+
+.contact-social-mail:hover {
+  background: #01a3e3;
+  color: white;
+}
+.mail-show{
+  display: none;
+}
+.contact-social-mail:hover .mail-hide{
+  transition: 0.3s;
+  display: none;
+}
+.contact-social-mail:hover .mail-show{
+  transition: 0.3s;
+  display: block;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
