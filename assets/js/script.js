@@ -32,27 +32,33 @@ for (let i = 0; i < navbarLinks.length; i++) {
  * when window scroll down to 400px
  */
 
-// const header = document.querySelector('[data-header]');
-// const goTopBtn = document.querySelector('[data-go-top]');
+const header = document.querySelector('[data-header]');
+const goTopBtn = document.querySelector('[data-go-top]');
 
-// window.addEventListener('scroll', function () {
-//   if (window.scrollY >= 400) {
-//     header.classList.add('active');
-//     goTopBtn.classList.add('active');
-//   } else {
-//     header.classList.remove('active');
-//     goTopBtn.classList.remove('active');
-//   }
-// });
+let lastScrollY = 0;
+
+window.addEventListener('scroll', function () {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY >= 50) {
+    header.classList.add('active');
+    if (goTopBtn) goTopBtn.classList.add('active');
+  } else {
+    header.classList.remove('active');
+    if (goTopBtn) goTopBtn.classList.remove('active');
+  }
+
+  lastScrollY = currentScrollY;
+});
 function myFunctionMail() {
   // Get the text field
-  var copyText = document.getElementById("mail-main");
+  var copyText = document.getElementById('mail-main');
 
   // Select the text field
   copyText.select();
   copyText.setSelectionRange(0, 99999); // For mobile devices
 
-   // Copy the text inside the text field
+  // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value);
 
   // Alert the copied text
@@ -94,3 +100,31 @@ function toggleAccordion() {
 }
 
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+// Smooth scroll with header offset for navigation links
+document.addEventListener('DOMContentLoaded', function () {
+  const headerHeight = 100; // Height to offset for fixed header
+
+  // Handle all anchor links that start with #
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+
+      // Skip if it's just # or empty
+      if (targetId === '#' || targetId.length <= 1) return;
+
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        e.preventDefault();
+
+        const targetPosition = targetElement.offsetTop - headerHeight;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth',
+        });
+      }
+    });
+  });
+});
