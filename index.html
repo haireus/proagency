@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/map.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -449,145 +450,70 @@
         <!-- 
         - #GLOBAL PRESENCE
       -->
-        <!-- 
         <section class="section global-presence" id="global">
           <div class="container">
             <h2 class="h2 section-title underline lang" key="GLOBAL-TITLE"></h2>
             <p class="section-text lang" key="GLOBAL-DESC"></p>
 
-            <div class="cobe-globe-container">
-              <div class="globe-wrapper" data-aos="fade-in">
-                <canvas id="cobe-globe" width="600" height="600"></canvas>
-                <div class="globe-loading">
-                  <div class="loading-spinner"></div>
-                  <p>Loading Interactive Globe...</p>
-                </div>
+            <div class="map-container">
+              <img src="./assets/svg/globe.svg" alt="World Map" />
+              <div class="map-pin" style="top: 25%; left: 20%">
+                <div class="country-name">Canada</div>
               </div>
-
-              <div class="globe-controls">
-                <h3 class="controls-title">Our Global Presence</h3>
-                <p class="controls-desc">
-                  Click on a country to explore our worldwide reach
-                </p>
-
-                <div class="country-list">
-                  <div class="country-buttons">
-                    <button
-                      class="country-btn active"
-                      data-country="us"
-                      data-phi="0.5"
-                      data-theta="-1.8"
-                    >
-                      <span class="flag">🇺🇸</span>
-                      <span class="country-name">United States</span>
-                      <span class="client-count">120+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="gb"
-                      data-phi="0.9"
-                      data-theta="-0.1"
-                    >
-                      <span class="flag">🇬🇧</span>
-                      <span class="country-name">United Kingdom</span>
-                      <span class="client-count">85+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="de"
-                      data-phi="0.85"
-                      data-theta="0.2"
-                    >
-                      <span class="flag">🇩🇪</span>
-                      <span class="country-name">Germany</span>
-                      <span class="client-count">65+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="jp"
-                      data-phi="0.6"
-                      data-theta="2.4"
-                    >
-                      <span class="flag">🇯🇵</span>
-                      <span class="country-name">Japan</span>
-                      <span class="client-count">78+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="sg"
-                      data-phi="0.4"
-                      data-theta="1.8"
-                    >
-                      <span class="flag">🇸🇬</span>
-                      <span class="country-name">Singapore</span>
-                      <span class="client-count">45+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="au"
-                      data-phi="0.2"
-                      data-theta="2.5"
-                    >
-                      <span class="flag">🇦🇺</span>
-                      <span class="country-name">Australia</span>
-                      <span class="client-count">52+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="ca"
-                      data-phi="0.7"
-                      data-theta="-1.6"
-                    >
-                      <span class="flag">🇨🇦</span>
-                      <span class="country-name">Canada</span>
-                      <span class="client-count">38+ clients</span>
-                    </button>
-                    <button
-                      class="country-btn"
-                      data-country="br"
-                      data-phi="0.15"
-                      data-theta="-0.8"
-                    >
-                      <span class="flag">🇧🇷</span>
-                      <span class="country-name">Brazil</span>
-                      <span class="client-count">32+ clients</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="client-stats">
-                  <div
-                    class="stat-item"
-                    data-aos="zoom-in"
-                    data-aos-delay="100"
-                  >
-                    <div class="stat-icon">🌐</div>
-                    <span class="stat-number">515+</span>
-                    <span class="stat-label">Global Clients</span>
-                  </div>
-                  <div
-                    class="stat-item"
-                    data-aos="zoom-in"
-                    data-aos-delay="200"
-                  >
-                    <div class="stat-icon">🗺️</div>
-                    <span class="stat-number">8+</span>
-                    <span class="stat-label">Countries</span>
-                  </div>
-                  <div
-                    class="stat-item"
-                    data-aos="zoom-in"
-                    data-aos-delay="300"
-                  >
-                    <div class="stat-icon">🕒</div>
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">Support</span>
-                  </div>
-                </div>
+              <div class="map-pin" style="top: 65%; left: 30%">
+                <div class="country-name">Brazil</div>
+              </div>
+              <div class="map-pin" style="top: 20%; left: 45%">
+                <div class="country-name">United Kingdom</div>
+              </div>
+              <div class="map-pin" style="top: 25%; left: 48%">
+                <div class="country-name">France</div>
+              </div>
+              <div class="map-pin" style="top: 30%; left: 50%">
+                <div class="country-name">Italy</div>
+              </div>
+              <div class="map-pin" style="top: 35%; left: 45%">
+                <div class="country-name">Morocco</div>
+              </div>
+              <div class="map-pin" style="top: 40%; left: 48%">
+                <div class="country-name">Algeria</div>
+              </div>
+              <div class="map-pin" style="top: 48%; left: 49%">
+                <div class="country-name">Nigeria</div>
+              </div>
+              <div class="map-pin" style="top: 22%; left: 55%">
+                <div class="country-name">Ukraine</div>
+              </div>
+              <div class="map-pin" style="top: 32%; left: 58%">
+                <div class="country-name">Turkey</div>
+              </div>
+              <div class="map-pin" style="top: 35%; left: 65%">
+                <div class="country-name">Pakistan</div>
+              </div>
+              <div class="map-pin" style="top: 40%; left: 70%">
+                <div class="country-name">Bangladesh</div>
+              </div>
+              <div class="map-pin" style="top: 45%; left: 68%">
+                <div class="country-name">India</div>
+              </div>
+              <div class="map-pin" style="top: 48%; left: 75%">
+                <div class="country-name">Vietnam</div>
+              </div>
+              <div class="map-pin" style="top: 50%; left: 80%">
+                <div class="country-name">Philippines</div>
+              </div>
+              <div class="map-pin" style="top: 55%; left: 74%">
+                <div class="country-name">Singapore</div>
+              </div>
+              <div class="map-pin" style="top: 60%; left: 78%">
+                <div class="country-name">Indonesia</div>
+              </div>
+              <div class="map-pin" style="top: 70%; left: 85%">
+                <div class="country-name">Australia</div>
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <!-- 
         - #SERVICE
@@ -1766,7 +1692,7 @@
                     <input
                       class="mail-show"
                       id="mail-main"
-                      value="thanhvanagency@gmail.com"
+                      value="proagency.work@gmail.com"
                     />
                     <span class="mail-show">Click to copy</span>
                   </button>
@@ -1825,6 +1751,7 @@
     <script src="./assets/js/language.js" defer></script>
     <script src="./assets/js/swiper.js" defer></script>
     <script type="module" src="./assets/js/cobe-globe.js"></script>
+    <script src="./assets/js/map-animation.js" defer></script>
     <script src="./assets/js/script.js" defer></script>
 
     <script
