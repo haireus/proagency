@@ -1,0 +1,104 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.map-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.map-pin {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #ff881b;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 15px #ff881b, 0 0 25px #ff881b;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.map-pin::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ff881b;
+  opacity: 0;
+}
+
+.map-pin.pulse {
+  animation: pinZoom 2s ease-out;
+}
+
+.map-pin.pulse::before {
+  animation: ripple 2s ease-out;
+}
+
+@keyframes pinZoom {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+  100% {
+    width: 300%;
+    height: 300%;
+    opacity: 0;
+  }
+}
+
+.map-pin:hover {
+  transform: translate(-50%, -50%) scale(1.4);
+  z-index: 10;
+}
+
+.map-pin .country-name {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 11;
+}
+
+.map-pin:hover .country-name,
+.map-pin.show-name .country-name {
+  opacity: 1;
+  visibility: visible;
+}
