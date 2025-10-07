@@ -104,20 +104,47 @@ var arrLang = {
     'DESC-PROFILE':
       'Crafted and cared for by us, in good health, verified for instant advertising use.',
     //PROCESS
-    'TITLE-PROCESS': 'PROCESS',
+    'TITLE-PROCESS': 'PROCESS – How It Works',
     'DESC-PROCESS':
-      'My services include all thing for run ads : VPS or adspower (clean proxy), strong profile to keep ads account, strong ads account for run ads, Credit card avail in ads acc, we provide page too if you need. you just need care about performance of your ads.',
-    'PROCESS-STEP-1-TITLE': 'Test your ads',
+      "At ProAgency, we make renting and running Facebook Ads Accounts fast, secure, and hassle-free. Here's the step-by-step process:",
+    'PROCESS-STEP-1-TITLE': '1. Test Your Ads',
     'PROCESS-STEP-1-DESC':
-      'Firstly, your campaign will be tested using our accounts.',
-    'PROCESS-STEP-2-TITLE': 'Prepare Ads Account',
+      'We start by testing your campaign using our accounts.',
+    'PROCESS-STEP-1-DETAIL-1':
+      'This helps us evaluate ad quality, compliance, and stability before scaling.',
+    'PROCESS-STEP-1-DETAIL-2':
+      "Ensures you don't waste budget on unstable accounts.",
+    'PROCESS-STEP-2-TITLE': '2. Prepare Ads Account',
     'PROCESS-STEP-2-DESC':
-      'Setting up the accounts and pages in the VPS (RDP) or Adspower.',
-    'PROCESS-STEP-3-TITLE': 'Payment',
-    'PROCESS-STEP-3-DESC': 'Let the clients VPS access to check the accounts.',
-    'PROCESS-STEP-4-TITLE': 'Note',
-    'PROCESS-STEP-4-DESC':
-      'After check everything OK with you, you finish payment to start.',
+      'We set up everything inside a secure VPS (RDP) or AdsPower (clean proxy).',
+    'PROCESS-STEP-2-DETAIL-1':
+      'The account comes with a strong profile, stable environment, and optimized setup.',
+    'PROCESS-STEP-2-DETAIL-2':
+      'Optional: verified page, credit card, and smart pixel integration available.',
+    'PROCESS-STEP-3-TITLE': '3. Access & Review',
+    'PROCESS-STEP-3-DESC':
+      "You'll receive login access to check the account setup.",
+    'PROCESS-STEP-3-DETAIL-1':
+      'Full transparency: verify campaign readiness, billing, and page status before payment.',
+    'PROCESS-STEP-3-DETAIL-2':
+      'Our support team assists you during this step to answer all questions.',
+    'PROCESS-STEP-4-TITLE': '4. Payment Confirmation',
+    'PROCESS-STEP-4-DESC': 'Once you are satisfied, proceed with payment.',
+    'PROCESS-STEP-4-DETAIL-1':
+      'We provide invoice/contract if needed for your business.',
+    'PROCESS-STEP-4-DETAIL-2':
+      'Flexible payment methods available (Crypto, Payoneer, Wise, Bank transfer, etc.).',
+    'PROCESS-STEP-5-TITLE': '5. Launch & Scale',
+    'PROCESS-STEP-5-DESC':
+      'After payment, you can immediately start running ads.',
+    'PROCESS-STEP-5-DETAIL-1':
+      'Accounts are optimized for long-term use, high reliability, and scalable spending.',
+    'PROCESS-STEP-5-DETAIL-2':
+      'Our 24/7 support ensures smooth operation and quick replacements if needed.',
+    'PROCESS-RESULT-1':
+      '<strong>✅ Result:</strong> You only focus on running and scaling your ads.',
+    'PROCESS-RESULT-2':
+      '<strong>👉</strong> All the technical setup, account security, and backup are handled by ProAgency.',
     //OUR FEATURES
     'FEATURE-TITLE': 'Our Features',
     'F-1-TITLE': 'Invoice Trusted Ads Accounts',
@@ -184,6 +211,25 @@ var arrLang = {
     'CONTACT-TITLE': 'Contact us',
     'CONTACT-DESC':
       'Contact us immediately to receive special offers and thoughtful support',
+
+    //POPUP & BANNER
+    'BANNER-TITLE': 'New Client Benefits!',
+    'BANNER-SUBTITLE': 'Exclusive offers for first-time clients',
+    'BANNER-BENEFIT-1': '3% OFF service fee',
+    'BANNER-BENEFIT-2': 'FREE 3-day trial',
+    'BANNER-BENEFIT-3': '$500 bonus gift',
+    'BANNER-CTA': 'Contact us on Telegram',
+
+    'POPUP-TITLE': 'Exclusive Benefits for New Clients – ProAgency',
+    'POPUP-SUBTITLE': 'Limited time offer for first-time clients',
+    'POPUP-HIGHLIGHT': 'Start with ProAgency today and save more!',
+    'POPUP-BENEFIT-1': '3% OFF service fee in the first month',
+    'POPUP-BENEFIT-2': 'FREE 3-day trial to experience our service',
+    'POPUP-BENEFIT-3': '$500 bonus gift on first deposit',
+    'POPUP-BENEFIT-4': 'FREE Smart Pixel integration',
+    'POPUP-BENEFIT-5': 'FREE Verified Page (blue tick) usage',
+    'POPUP-BENEFIT-6': 'FREE VPS or AdsPower (clean proxy)',
+    'POPUP-CTA': 'Contact us on Telegram',
   },
   'zh-tw': {
     HOME: '主页',
@@ -281,18 +327,38 @@ var arrLang = {
     'DESC-PROFILE':
       '由我们精心制作和保养，健康状况良好，经过验证可用于即时广告用途。',
     //PROCESS
-    'TITLE-PROCESS': '过程',
+    'TITLE-PROCESS': '流程 – 工作方式',
     'DESC-PROCESS':
-      '我的服务包括运行广告的所有内容：VPS 或 adspower（干净的代理）、保留广告帐户的强大配置文件、用于运行广告的强大广告帐户、广告帐户中的信用卡可用性，我们也提供页面，如果 您需要。您只需要关心广告的效果。',
-    'PROCESS-STEP-1-TITLE': '测试您的广告',
-    'PROCESS-STEP-1-DESC': '首先，将使用我们的帐户测试您的广告系列。',
-    'PROCESS-STEP-2-TITLE': '准备广告账户',
+      '在ProAgency，我们让Facebook广告账户的租赁和运营变得快速、安全且无忧。以下是分步流程：',
+    'PROCESS-STEP-1-TITLE': '1. 测试您的广告',
+    'PROCESS-STEP-1-DESC': '我们首先使用我们的账户测试您的广告活动。',
+    'PROCESS-STEP-1-DETAIL-1':
+      '这有助于我们在扩展之前评估广告质量、合规性和稳定性。',
+    'PROCESS-STEP-1-DETAIL-2': '确保您不会在不稳定的账户上浪费预算。',
+    'PROCESS-STEP-2-TITLE': '2. 准备广告账户',
     'PROCESS-STEP-2-DESC':
-      '在虚拟专用服务器（VPS）或 Adspower 中设置账户和页面。',
-    'PROCESS-STEP-3-TITLE': '付款',
-    'PROCESS-STEP-3-DESC': '允许客户 VPS 访问以检查账户。',
-    'PROCESS-STEP-4-TITLE': '注意',
-    'PROCESS-STEP-4-DESC': '在与您确认一切都正常后，您可以完成付款以开始。',
+      '我们在安全的VPS（RDP）或AdsPower（干净代理）内设置一切。',
+    'PROCESS-STEP-2-DETAIL-1': '账户配备强大的配置文件、稳定环境和优化设置。',
+    'PROCESS-STEP-2-DETAIL-2': '可选：经过验证的页面、信用卡和智能像素集成。',
+    'PROCESS-STEP-3-TITLE': '3. 访问和审查',
+    'PROCESS-STEP-3-DESC': '您将获得登录权限来检查账户设置。',
+    'PROCESS-STEP-3-DETAIL-1':
+      '完全透明：在付款前验证广告活动准备情况、计费和页面状态。',
+    'PROCESS-STEP-3-DETAIL-2': '我们的支持团队在此步骤中协助您回答所有问题。',
+    'PROCESS-STEP-4-TITLE': '4. 付款确认',
+    'PROCESS-STEP-4-DESC': '一旦您满意，请继续付款。',
+    'PROCESS-STEP-4-DETAIL-1': '如果您的企业需要，我们提供发票/合同。',
+    'PROCESS-STEP-4-DETAIL-2':
+      '提供灵活的付款方式（加密货币、Payoneer、Wise、银行转账等）。',
+    'PROCESS-STEP-5-TITLE': '5. 启动和扩展',
+    'PROCESS-STEP-5-DESC': '付款后，您可以立即开始投放广告。',
+    'PROCESS-STEP-5-DETAIL-1':
+      '账户针对长期使用、高可靠性和可扩展支出进行了优化。',
+    'PROCESS-STEP-5-DETAIL-2': '我们的24/7支持确保顺畅运营和必要时的快速更换。',
+    'PROCESS-RESULT-1':
+      '<strong>✅ 结果：</strong> 您只需专注于投放和扩展广告。',
+    'PROCESS-RESULT-2':
+      '<strong>👉</strong> 所有技术设置、账户安全和备份都由ProAgency处理。',
     //OUR FEATURES
     'FEATURE-TITLE': '我们的特色',
     'F-1-TITLE': '为可信广告帐户开具发票',
@@ -351,6 +417,25 @@ var arrLang = {
     //CONTACT
     'CONTACT-TITLE': '联系我们',
     'CONTACT-DESC': '立即联系我们以获得特别优惠和周到的支持',
+
+    //POPUP & BANNER
+    'BANNER-TITLE': '新客户福利！',
+    'BANNER-SUBTITLE': '首次客户专享优惠',
+    'BANNER-BENEFIT-1': '服务费减免3%',
+    'BANNER-BENEFIT-2': '免费3天试用',
+    'BANNER-BENEFIT-3': '$500奖励礼金',
+    'BANNER-CTA': '在Telegram上联系我们',
+
+    'POPUP-TITLE': '新客户专享福利 – ProAgency',
+    'POPUP-SUBTITLE': '首次客户限时优惠',
+    'POPUP-HIGHLIGHT': '今天就开始使用ProAgency，节省更多！',
+    'POPUP-BENEFIT-1': '首月服务费减免3%',
+    'POPUP-BENEFIT-2': '免费3天试用体验我们的服务',
+    'POPUP-BENEFIT-3': '首次充值获得$500奖励礼金',
+    'POPUP-BENEFIT-4': '免费智能像素集成',
+    'POPUP-BENEFIT-5': '免费使用认证页面（蓝色勾选）',
+    'POPUP-BENEFIT-6': '免费VPS或AdsPower（干净代理）',
+    'POPUP-CTA': '在Telegram上联系我们',
   },
   'ru-gb': {
     HOME: 'Главная',
@@ -452,19 +537,48 @@ var arrLang = {
     'DESC-PROFILE':
       'Созданный и подготовленный нами, проверенный для немедленного использования в рекламе.',
     //PROCESS
-    'TITLE-PROCESS': 'Аренда',
+    'TITLE-PROCESS': 'ПРОЦЕСС – Как это работает',
     'DESC-PROCESS':
-      'Наши услуги включают в себя все, что нужно для запуска рекламы: VPS или adspower (чистый прокси), профиль для ведения рекламного аккаунта, рекламный аккаунт для запуска, кредитная карта доступная в рекламном аккаунте, мы предоставляем fanpage(если вам нужно). Вам нужно только работать над качеством вашей рекламы.',
-    'PROCESS-STEP-1-TITLE': 'Проверка ваших объявлений',
+      'В ProAgency мы делаем аренду и управление рекламными аккаунтами Facebook быстрыми, безопасными и без проблем. Вот пошаговый процесс:',
+    'PROCESS-STEP-1-TITLE': '1. Тестирование ваших объявлений',
     'PROCESS-STEP-1-DESC':
-      'Сначала ваша кампания будет протестирована с помощью наших аккаунтов.',
-    'PROCESS-STEP-2-TITLE': 'Подготовка рекламного аккаунта',
-    'PROCESS-STEP-2-DESC': 'Настройка аккаунта на VPS (RDP) или Adspower.',
-    'PROCESS-STEP-3-TITLE': 'Оплата',
-    'PROCESS-STEP-3-DESC': 'Предоставление доступа для проверки аккаунта.',
-    'PROCESS-STEP-4-TITLE': 'Примечание',
+      'Мы начинаем с тестирования вашей кампании, используя наши аккаунты.',
+    'PROCESS-STEP-1-DETAIL-1':
+      'Это помогает нам оценить качество объявлений, соответствие требованиям и стабильность перед масштабированием.',
+    'PROCESS-STEP-1-DETAIL-2':
+      'Гарантирует, что вы не потратите бюджет на нестабильные аккаунты.',
+    'PROCESS-STEP-2-TITLE': '2. Подготовка рекламного аккаунта',
+    'PROCESS-STEP-2-DESC':
+      'Мы настраиваем все в безопасном VPS (RDP) или AdsPower (чистый прокси).',
+    'PROCESS-STEP-2-DETAIL-1':
+      'Аккаунт поставляется с надежным профилем, стабильной средой и оптимизированной настройкой.',
+    'PROCESS-STEP-2-DETAIL-2':
+      'Опционально: верифицированная страница, кредитная карта и интеграция умного пикселя.',
+    'PROCESS-STEP-3-TITLE': '3. Доступ и проверка',
+    'PROCESS-STEP-3-DESC':
+      'Вы получите доступ для входа и проверки настройки аккаунта.',
+    'PROCESS-STEP-3-DETAIL-1':
+      'Полная прозрачность: проверьте готовность кампании, биллинг и статус страницы перед оплатой.',
+    'PROCESS-STEP-3-DETAIL-2':
+      'Наша команда поддержки поможет вам на этом этапе, ответив на все вопросы.',
+    'PROCESS-STEP-4-TITLE': '4. Подтверждение оплаты',
     'PROCESS-STEP-4-DESC':
-      'После того, как вы проверили, что все в порядке, вы завершаете оплату, чтобы начать работу.',
+      'Когда вы будете удовлетворены, переходите к оплате.',
+    'PROCESS-STEP-4-DETAIL-1':
+      'Мы предоставляем счет/договор, если это необходимо для вашего бизнеса.',
+    'PROCESS-STEP-4-DETAIL-2':
+      'Доступны гибкие способы оплаты (криптовалюта, Payoneer, Wise, банковский перевод и т.д.).',
+    'PROCESS-STEP-5-TITLE': '5. Запуск и масштабирование',
+    'PROCESS-STEP-5-DESC':
+      'После оплаты вы можете немедленно начать показ рекламы.',
+    'PROCESS-STEP-5-DETAIL-1':
+      'Аккаунты оптимизированы для долгосрочного использования, высокой надежности и масштабируемых трат.',
+    'PROCESS-STEP-5-DETAIL-2':
+      'Наша поддержка 24/7 обеспечивает бесперебойную работу и быструю замену при необходимости.',
+    'PROCESS-RESULT-1':
+      '<strong>✅ Результат:</strong> Вы сосредоточиваетесь только на запуске и масштабировании своих объявлений.',
+    'PROCESS-RESULT-2':
+      '<strong>👉</strong> Вся техническая настройка, безопасность аккаунта и резервное копирование обрабатываются ProAgency.',
     //OUR FEATURES
     'FEATURE-TITLE': 'Наши возможности',
     'F-1-TITLE': 'Только качественные рекламные аккаунты',
@@ -533,6 +647,27 @@ var arrLang = {
     'CONTACT-TITLE': 'Свяжитесь с нами',
     'CONTACT-DESC':
       'Свяжитесь с нами, чтобы получить специальные предложения и поддержку',
+
+    //POPUP & BANNER
+    'BANNER-TITLE': 'Льготы для новых клиентов!',
+    'BANNER-SUBTITLE': 'Эксклюзивные предложения для первых клиентов',
+    'BANNER-BENEFIT-1': 'Скидка 3% на услуги',
+    'BANNER-BENEFIT-2': 'Бесплатный 3-дневный пробный период',
+    'BANNER-BENEFIT-3': 'Бонусный подарок $500',
+    'BANNER-CTA': 'Свяжитесь с нами в Telegram',
+
+    'POPUP-TITLE': 'Эксклюзивные льготы для новых клиентов – ProAgency',
+    'POPUP-SUBTITLE': 'Ограниченное предложение для первых клиентов',
+    'POPUP-HIGHLIGHT': 'Начните с ProAgency сегодня и экономьте больше!',
+    'POPUP-BENEFIT-1': 'Скидка 3% на сервисные сборы в первый месяц',
+    'POPUP-BENEFIT-2':
+      'Бесплатный 3-дневный пробный период для ознакомления с нашим сервисом',
+    'POPUP-BENEFIT-3': 'Бонусный подарок $500 при первом депозите',
+    'POPUP-BENEFIT-4': 'Бесплатная интеграция Smart Pixel',
+    'POPUP-BENEFIT-5':
+      'Бесплатное использование верифицированной страницы (синяя галочка)',
+    'POPUP-BENEFIT-6': 'Бесплатный VPS или AdsPower (чистый прокси)',
+    'POPUP-CTA': 'Свяжитесь с нами в Telegram',
   },
 };
 

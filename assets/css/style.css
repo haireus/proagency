@@ -699,6 +699,54 @@ body {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.9);
   line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.process-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.process-details li {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 18px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.process-details li::before {
+  content: '•';
+  color: #1876f1;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.process-result {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.result-highlight {
+  background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  border: 2px solid rgba(24, 118, 241, 0.1);
+}
+
+.result-highlight p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 8px 0;
+  color: #333;
+}
+
+.result-highlight strong {
+  color: #1876f1;
 }
 
 /*-----------------------------------*\

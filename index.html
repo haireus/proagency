@@ -32,6 +32,7 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/map.css" />
+    <link rel="stylesheet" href="./assets/css/popup-banner.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -1228,7 +1229,12 @@
                     class="process-timeline-des lang"
                     key="PROCESS-STEP-1-DESC"
                   ></p>
+                  <ul class="process-details">
+                    <li class="lang" key="PROCESS-STEP-1-DETAIL-1"></li>
+                    <li class="lang" key="PROCESS-STEP-1-DETAIL-2"></li>
+                  </ul>
                 </div>
+
                 <div class="process-timeline-item">
                   <div
                     class="process-timeline-title lang"
@@ -1238,6 +1244,10 @@
                     class="process-timeline-des lang"
                     key="PROCESS-STEP-2-DESC"
                   ></p>
+                  <ul class="process-details">
+                    <li class="lang" key="PROCESS-STEP-2-DETAIL-1"></li>
+                    <li class="lang" key="PROCESS-STEP-2-DETAIL-2"></li>
+                  </ul>
                 </div>
 
                 <div class="process-timeline-item">
@@ -1249,6 +1259,10 @@
                     class="process-timeline-des lang"
                     key="PROCESS-STEP-3-DESC"
                   ></p>
+                  <ul class="process-details">
+                    <li class="lang" key="PROCESS-STEP-3-DETAIL-1"></li>
+                    <li class="lang" key="PROCESS-STEP-3-DETAIL-2"></li>
+                  </ul>
                 </div>
 
                 <div class="process-timeline-item">
@@ -1260,10 +1274,34 @@
                     class="process-timeline-des lang"
                     key="PROCESS-STEP-4-DESC"
                   ></p>
+                  <ul class="process-details">
+                    <li class="lang" key="PROCESS-STEP-4-DETAIL-1"></li>
+                    <li class="lang" key="PROCESS-STEP-4-DETAIL-2"></li>
+                  </ul>
+                </div>
+
+                <div class="process-timeline-item">
+                  <div
+                    class="process-timeline-title lang"
+                    key="PROCESS-STEP-5-TITLE"
+                  ></div>
+                  <p
+                    class="process-timeline-des lang"
+                    key="PROCESS-STEP-5-DESC"
+                  ></p>
+                  <ul class="process-details">
+                    <li class="lang" key="PROCESS-STEP-5-DETAIL-1"></li>
+                    <li class="lang" key="PROCESS-STEP-5-DETAIL-2"></li>
+                  </ul>
                 </div>
               </div>
 
-              <div>
+              <div class="process-result">
+                <div class="result-highlight">
+                  <p class="lang" key="PROCESS-RESULT-1"></p>
+                  <p class="lang" key="PROCESS-RESULT-2"></p>
+                </div>
+
                 <figure class="process-image">
                   <img
                     src="./assets/images/timeline.png"
@@ -1769,11 +1807,67 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <!-- Floating Banner -->
+    <div class="floating-banner" id="floatingBanner">
+      <div class="floating-banner-header">
+        <h3 class="floating-banner-title lang" key="BANNER-TITLE"></h3>
+        <button class="floating-banner-close" onclick="closeFloatingBanner()">
+          &times;
+        </button>
+      </div>
+      <div class="floating-banner-content">
+        <p class="floating-banner-subtitle lang" key="BANNER-SUBTITLE"></p>
+        <ul class="floating-banner-benefits">
+          <li class="lang" key="BANNER-BENEFIT-1"></li>
+          <li class="lang" key="BANNER-BENEFIT-2"></li>
+          <li class="lang" key="BANNER-BENEFIT-3"></li>
+        </ul>
+        <a
+          href="https://t.me/ntvanee"
+          target="_blank"
+          class="floating-banner-cta lang"
+          key="BANNER-CTA"
+        ></a>
+      </div>
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup-modal">
+        <div class="popup-header">
+          <button class="popup-close" onclick="closePopup()">&times;</button>
+          <h2 class="popup-title lang" key="POPUP-TITLE"></h2>
+          <p class="popup-subtitle lang" key="POPUP-SUBTITLE"></p>
+        </div>
+        <div class="popup-content">
+          <div class="popup-highlight">
+            <p class="popup-highlight-text lang" key="POPUP-HIGHLIGHT"></p>
+          </div>
+          <ul class="popup-benefits">
+            <li class="lang" key="POPUP-BENEFIT-1"></li>
+            <li class="lang" key="POPUP-BENEFIT-2"></li>
+            <li class="lang" key="POPUP-BENEFIT-3"></li>
+            <li class="lang" key="POPUP-BENEFIT-4"></li>
+            <li class="lang" key="POPUP-BENEFIT-5"></li>
+            <li class="lang" key="POPUP-BENEFIT-6"></li>
+          </ul>
+          <a
+            href="https://t.me/ntvanee"
+            target="_blank"
+            class="popup-cta lang"
+            key="POPUP-CTA"
+            onclick="closePopup()"
+          ></a>
+        </div>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
         duration: 1000,
       });
     </script>
+    <script src="./assets/js/popup-banner.js"></script>
   </body>
 </html>
