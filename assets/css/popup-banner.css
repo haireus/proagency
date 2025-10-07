@@ -138,7 +138,6 @@
 
 .popup-overlay.active {
   visibility: visible;
-  opacity: 1;
 }
 
 .popup-modal {

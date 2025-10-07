@@ -58,14 +58,6 @@ function setupEventListeners() {
       closeFloatingBanner();
     }
   });
-
-  // Auto-hide floating banner after 30 seconds
-  setTimeout(function () {
-    const banner = document.getElementById('floatingBanner');
-    if (banner && !banner.classList.contains('hidden')) {
-      banner.style.opacity = '0.7';
-    }
-  }, 30000);
 }
 
 function showPopup() {
