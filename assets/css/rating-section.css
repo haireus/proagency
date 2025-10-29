@@ -1,0 +1,71 @@
+/* Rating Section Styles */
+.rating-section {
+  border-radius: 16px;
+  gap: 6px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.rating-section .trustpilot-logo {
+  width: 100px;
+  object-fit: contain;
+  background-color: white;
+}
+.rating-section .rating-info {
+  flex: 1;
+}
+.rating-section .rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 600;
+}
+.rating-section .rating-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: black;
+  margin-left: 8px;
+}
+.rating-section .rating-desc {
+  color: #474646;
+  font-size: 1.1rem;
+  margin-top: 2px;
+}
+.rating-section .avatars {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+.rating-section .avatar {
+  height: 36px;
+  object-fit: cover;
+}
+.rating-section .avatar:first-child {
+  margin-left: 0;
+}
+.rating-section .avatar-count {
+  background: #ff5a36;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -12px;
+  border: 2px solid #232335;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+  .rating-section {
+    gap: 12px;
+  }
+  .rating-section .avatars {
+    margin-left: 0;
+  }
+}
