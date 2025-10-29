@@ -1,7 +1,5 @@
 var arrLang = {
   'en-gb': {
-    RATTING: 'Rating',
-    TRUSTED_WORLD_WIDE: 'Trusted by Clients from Worldwide',
     RATING_LABEL: 'Rating',
     RATING_DESC: 'Trusted by Clients from Worldwide',
     HOME: 'Home',
