@@ -7,6 +7,7 @@ var arrLang = {
     HOME: 'Home',
     ACCOUNT: 'About Us',
     'TEAM-NAV': 'Meet Our Team',
+    'NEWS-NAV': 'News',
     PROCESS: 'Process',
     QUESTION: 'Question',
     CONTACT: 'Contact',
@@ -176,6 +177,29 @@ var arrLang = {
     'EVENTS-MEDIA-SUBTITLE':
       'Browse the full gallery of photos and videos from our recent conferences.',
 
+    // News Preview
+    'NEWS-EYEBROW': 'Our Thoughts',
+    'NEWS-SECTION-TITLE': 'Latest news & industry insights',
+    'NEWS-READ-ALL': 'Read all articles',
+    'NEWS-CATEGORY-STRATEGY': 'Strategy',
+    'NEWS-CATEGORY-COMPLIANCE': 'Compliance',
+    'NEWS-CATEGORY-GUIDE': 'Guides',
+    'NEWS-CARD-1-TITLE':
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+    'NEWS-CARD-1-EXCERPT':
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-1-DATE': 'October 12, 2025',
+    'NEWS-CARD-2-TITLE':
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+    'NEWS-CARD-2-EXCERPT':
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-2-DATE': 'October 7, 2025',
+    'NEWS-CARD-3-TITLE':
+      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+    'NEWS-CARD-3-EXCERPT':
+      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
+    'NEWS-CARD-3-DATE': 'September 28, 2025',
+
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Read what Others have to say',
     'TESTIMONIAL-1-TEXT':
@@ -298,6 +322,7 @@ var arrLang = {
     HOME: '主页',
     ACCOUNT: '帐户',
     'TEAM-NAV': '团队成员',
+    'NEWS-NAV': '新闻',
     PROCESS: '过程',
     QUESTION: '问题',
     CONTACT: '接触',
@@ -448,6 +473,29 @@ var arrLang = {
     'EVENTS-MEDIA-TITLE': '活动精彩瞬间',
     'EVENTS-MEDIA-SUBTITLE': '滑动浏览我们的会议现场照片与影片。',
 
+    // News Preview
+    'NEWS-EYEBROW': '我们的想法',
+    'NEWS-SECTION-TITLE': '最新新闻与行业洞察',
+    'NEWS-READ-ALL': '阅读所有文章',
+    'NEWS-CATEGORY-STRATEGY': '策略',
+    'NEWS-CATEGORY-COMPLIANCE': '合规',
+    'NEWS-CATEGORY-GUIDE': '指南',
+    'NEWS-CARD-1-TITLE':
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+    'NEWS-CARD-1-EXCERPT':
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-1-DATE': '2025年10月12日',
+    'NEWS-CARD-2-TITLE':
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+    'NEWS-CARD-2-EXCERPT':
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-2-DATE': '2025年10月7日',
+    'NEWS-CARD-3-TITLE':
+      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+    'NEWS-CARD-3-EXCERPT':
+      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
+    'NEWS-CARD-3-DATE': '2025年9月28日',
+
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': '看看其他人怎么说',
     'TESTIMONIAL-1-TEXT':
@@ -560,6 +608,7 @@ var arrLang = {
     HOME: 'Главная',
     ACCOUNT: 'О нас',
     'TEAM-NAV': 'Наша команда',
+    'NEWS-NAV': 'Новости',
     PROCESS: 'Аренда',
     QUESTION: 'Вопросы',
     CONTACT: 'Связаться',
@@ -723,6 +772,29 @@ var arrLang = {
     'EVENTS-MEDIA-TITLE': 'Фото и видео',
     'EVENTS-MEDIA-SUBTITLE':
       'Листайте, чтобы увидеть фото и видео с наших последних мероприятий.',
+
+    // News Preview
+    'NEWS-EYEBROW': 'Наши мысли',
+    'NEWS-SECTION-TITLE': 'Свежие новости и отраслевые инсайты',
+    'NEWS-READ-ALL': 'Читать все статьи',
+    'NEWS-CATEGORY-STRATEGY': 'Стратегия',
+    'NEWS-CATEGORY-COMPLIANCE': 'Комплаенс',
+    'NEWS-CATEGORY-GUIDE': 'Гайды',
+    'NEWS-CARD-1-TITLE':
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+    'NEWS-CARD-1-EXCERPT':
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-1-DATE': '12 октября 2025',
+    'NEWS-CARD-2-TITLE':
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+    'NEWS-CARD-2-EXCERPT':
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-2-DATE': '7 октября 2025',
+    'NEWS-CARD-3-TITLE':
+      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+    'NEWS-CARD-3-EXCERPT':
+      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
+    'NEWS-CARD-3-DATE': '28 сентября 2025',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Прочитайте, что говорят другие',
