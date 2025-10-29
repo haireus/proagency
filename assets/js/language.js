@@ -115,25 +115,25 @@ var arrLang = {
       "At ProAgency, we make renting and running Facebook Business Accounts fast, secure, and hassle-free. Here's the step-by-step process:",
     'PROCESS-STEP-1-TITLE': '1. Test Your Ads',
     'PROCESS-STEP-1-DESC':
-      'We start by testing your campaign using our accounts.',
+      'I will test your ads in my business account to make sure your ads work properly.',
     'PROCESS-STEP-1-DETAIL-1':
-      'This helps us evaluate ad quality, compliance, and stability before scaling.',
+      'This verification process ensures your campaigns are compatible with our account setup.',
     'PROCESS-STEP-1-DETAIL-2':
-      "Ensures you don't waste budget on unstable accounts.",
-    'PROCESS-STEP-2-TITLE': '2. Prepare Marketing Setup',
+      'Confirms your ads meet platform requirements and can run successfully.',
+    'PROCESS-STEP-2-TITLE': '2. Prepare Business Account',
     'PROCESS-STEP-2-DESC':
-      'We set up everything inside a secure VPS (RDP) or AdsPower (secure connection).',
+      'If your ads work in my business account, I will prepare the account and show you for verification.',
     'PROCESS-STEP-2-DETAIL-1':
-      'The account comes with a verified profile, stable environment, and optimized setup.',
+      'You can review and check my business account setup before proceeding.',
     'PROCESS-STEP-2-DETAIL-2':
-      'Optional: verified page, credit card, and smart pixel integration available.',
-    'PROCESS-STEP-3-TITLE': '3. Access & Review',
+      'Full transparency - verify everything meets your requirements.',
+    'PROCESS-STEP-3-TITLE': '3. Payment',
     'PROCESS-STEP-3-DESC':
-      "You'll receive login access to check the account setup.",
+      "If you don't have any problems with my business account and want to start, you send money to begin.",
     'PROCESS-STEP-3-DETAIL-1':
-      'Full transparency: verify campaign readiness, billing, and page status before payment.',
+      'Flexible payment methods available (Crypto, Payoneer, Wise, Bank transfer, etc.).',
     'PROCESS-STEP-3-DETAIL-2':
-      'Our support team assists you during this step to answer all questions.',
+      'Once payment is received, you can immediately start running your campaigns.',
     'PROCESS-STEP-4-TITLE': '4. Payment Confirmation',
     'PROCESS-STEP-4-DESC': 'Once you are satisfied, proceed with payment.',
     'PROCESS-STEP-4-DETAIL-1':
@@ -151,6 +151,30 @@ var arrLang = {
       '<strong>✅ Result:</strong> You only focus on running and scaling your ads.',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> All the technical setup, account security, and backup are handled by ProAgency.',
+
+    // Events Gallery
+    'EVENTS-TITLE': 'Events Gallery',
+    'EVENTS-SUBTITLE':
+      "Check out some of the events we've attended and the amazing experiences we've had.",
+    'EVENTS-HIGHLIGHT': 'Upcoming',
+    'EVENTS-CARD-1-TITLE': 'Affiliate World Asia 2025',
+    'EVENTS-CARD-1-DATE': 'December 2025',
+    'EVENTS-CARD-1-LOCATION': 'Bangkok, Thailand',
+    'EVENTS-CARD-1-DESC':
+      'We are gearing up to return to Bangkok for Affiliate World Asia 2025 with fresh insights, elevated partner offers, and in-person sessions designed to help brands scale responsibly and profitably.',
+    'EVENTS-CARD-2-TITLE': 'BROCONF 4',
+    'EVENTS-CARD-2-DATE': '02-03 Oct 2024',
+    'EVENTS-CARD-2-LOCATION': 'Moscow, Russia',
+    'EVENTS-CARD-2-DESC':
+      'BROCONF 4, the fourth event hosted by the team behind BroCard, took place at MTS Live Hall in Moscow. The conference gathered key industry players, giving us a valuable opportunity to network, strengthen relationships with current clients, and explore new partnership prospects.',
+    'EVENTS-CARD-3-TITLE': 'Affiliate World Asia 2024',
+    'EVENTS-CARD-3-DATE': '4-5 Dec 2024',
+    'EVENTS-CARD-3-LOCATION': 'Bangkok, Thailand',
+    'EVENTS-CARD-3-DESC':
+      'Under the banner "Connect. Innovate. Dominate." this gathering brought together top minds in affiliate marketing and e-commerce from across the globe. Over two dynamic days, participants gained invaluable knowledge, shared experiences, and built lasting connections - proving that AWA is far more than just another industry conference.',
+    'EVENTS-MEDIA-TITLE': 'Event Highlights',
+    'EVENTS-MEDIA-SUBTITLE':
+      'Browse the full gallery of photos and videos from our recent conferences.',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Read what Others have to say',
@@ -371,21 +395,22 @@ var arrLang = {
     'DESC-PROCESS':
       '在ProAgency，我们让Facebook商业账户的租赁和运营变得快速、安全且无忧。以下是分步流程：',
     'PROCESS-STEP-1-TITLE': '1. 测试您的广告',
-    'PROCESS-STEP-1-DESC': '我们首先使用我们的账户测试您的广告活动。',
+    'PROCESS-STEP-1-DESC':
+      '我会在我的商业账户中测试您的广告，以确保您的广告能够正常运行。',
     'PROCESS-STEP-1-DETAIL-1':
-      '这有助于我们在扩展之前评估广告质量、合规性和稳定性。',
-    'PROCESS-STEP-1-DETAIL-2': '确保您不会在不稳定的账户上浪费预算。',
-    'PROCESS-STEP-2-TITLE': '2. 准备营销设置',
+      '这个验证过程确保您的广告活动与我们的账户设置兼容。',
+    'PROCESS-STEP-1-DETAIL-2': '确认您的广告符合平台要求并能够成功投放。',
+    'PROCESS-STEP-2-TITLE': '2. 准备商业账户',
     'PROCESS-STEP-2-DESC':
-      '我们在安全的VPS（RDP）或AdsPower（安全连接）内设置一切。',
-    'PROCESS-STEP-2-DETAIL-1':
-      '账户配备经过验证的配置文件、稳定环境和优化设置。',
-    'PROCESS-STEP-2-DETAIL-2': '可选：经过验证的页面、信用卡和智能像素集成。',
-    'PROCESS-STEP-3-TITLE': '3. 访问和审查',
-    'PROCESS-STEP-3-DESC': '您将获得登录权限来检查账户设置。',
+      '如果您的广告在我的商业账户中运行良好，我会准备账户并展示给您验证。',
+    'PROCESS-STEP-2-DETAIL-1': '您可以在继续之前审查和检查我的商业账户设置。',
+    'PROCESS-STEP-2-DETAIL-2': '完全透明 - 验证一切是否符合您的要求。',
+    'PROCESS-STEP-3-TITLE': '3. 付款',
+    'PROCESS-STEP-3-DESC':
+      '如果您对我的商业账户没有任何问题并想开始，请发送款项以开始。',
     'PROCESS-STEP-3-DETAIL-1':
-      '完全透明：在付款前验证广告活动准备情况、计费和页面状态。',
-    'PROCESS-STEP-3-DETAIL-2': '我们的支持团队在此步骤中协助您回答所有问题。',
+      '提供灵活的付款方式（加密货币、Payoneer、Wise、银行转账等）。',
+    'PROCESS-STEP-3-DETAIL-2': '收到付款后，您可以立即开始投放广告活动。',
     'PROCESS-STEP-4-TITLE': '4. 付款确认',
     'PROCESS-STEP-4-DESC': '一旦您满意，请继续付款。',
     'PROCESS-STEP-4-DETAIL-1': '如果您的企业需要，我们提供发票/合同。',
@@ -400,6 +425,28 @@ var arrLang = {
       '<strong>✅ 结果：</strong> 您只需专注于投放和扩展广告。',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> 所有技术设置、账户安全和备份都由ProAgency处理。',
+
+    // Events Gallery
+    'EVENTS-TITLE': '活动画廊',
+    'EVENTS-SUBTITLE': '看看我们参加的活动以及那些精彩瞬间。',
+    'EVENTS-HIGHLIGHT': '即将举行',
+    'EVENTS-CARD-1-TITLE': 'Affiliate World Asia 2025',
+    'EVENTS-CARD-1-DATE': '2025年12月',
+    'EVENTS-CARD-1-LOCATION': '泰国 · 曼谷',
+    'EVENTS-CARD-1-DESC':
+      '我们正筹备重返曼谷参加 Affiliate World Asia 2025，带来全新的市场洞察、合作方案以及线下交流，助力品牌在合规与效率之间取得平衡。',
+    'EVENTS-CARD-2-TITLE': 'BROCONF 4',
+    'EVENTS-CARD-2-DATE': '2024年10月2-3日',
+    'EVENTS-CARD-2-LOCATION': '俄罗斯 · 莫斯科',
+    'EVENTS-CARD-2-DESC':
+      '由 BroCard 团队举办的第四届 BROCONF 在莫斯科 MTS Live Hall 举行。大会汇聚行业核心伙伴，让我们与客户深化合作关系，并探索新的合作机会。',
+    'EVENTS-CARD-3-TITLE': 'Affiliate World Asia 2024',
+    'EVENTS-CARD-3-DATE': '2024年12月4-5日',
+    'EVENTS-CARD-3-LOCATION': '泰国 · 曼谷',
+    'EVENTS-CARD-3-DESC':
+      '以「Connect. Innovate. Dominate.」为主题，这场盛会汇聚了来自全球的联盟营销与电商精英。两天时间里，与会者汲取洞见、交流经验并建立长期合作，充分证明 AWA 绝不是普通的行业会议。',
+    'EVENTS-MEDIA-TITLE': '活动精彩瞬间',
+    'EVENTS-MEDIA-SUBTITLE': '滑动浏览我们的会议现场照片与影片。',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': '看看其他人怎么说',
@@ -617,23 +664,23 @@ var arrLang = {
     'PROCESS-STEP-1-DESC':
       'Мы начинаем с тестирования вашей кампании, используя наши аккаунты.',
     'PROCESS-STEP-1-DETAIL-1':
-      'Это помогает нам оценить качество объявлений, соответствие требованиям и стабильность перед масштабированием.',
+      'Этот процесс проверки гарантирует совместимость ваших кампаний с нашей настройкой аккаунта.',
     'PROCESS-STEP-1-DETAIL-2':
-      'Гарантирует, что вы не потратите бюджет на нестабильные аккаунты.',
-    'PROCESS-STEP-2-TITLE': '2. Подготовка рекламного аккаунта',
+      'Подтверждает, что ваша реклама соответствует требованиям платформы и может успешно работать.',
+    'PROCESS-STEP-2-TITLE': '2. Подготовка бизнес-аккаунта',
     'PROCESS-STEP-2-DESC':
-      'Мы настраиваем все в безопасном VPS (RDP) или AdsPower (чистый прокси).',
+      'Если ваша реклама работает в моем бизнес-аккаунте, я подготовлю аккаунт и покажу вам для проверки.',
     'PROCESS-STEP-2-DETAIL-1':
-      'Аккаунт поставляется с надежным профилем, стабильной средой и оптимизированной настройкой.',
+      'Вы можете просмотреть и проверить настройку моего бизнес-аккаунта перед тем, как продолжить.',
     'PROCESS-STEP-2-DETAIL-2':
-      'Опционально: верифицированная страница, кредитная карта и интеграция умного пикселя.',
-    'PROCESS-STEP-3-TITLE': '3. Доступ и проверка',
+      'Полная прозрачность - проверьте, что все соответствует вашим требованиям.',
+    'PROCESS-STEP-3-TITLE': '3. Оплата',
     'PROCESS-STEP-3-DESC':
-      'Вы получите доступ для входа и проверки настройки аккаунта.',
+      'Если у вас нет проблем с моим бизнес-аккаунтом и вы хотите начать, отправьте деньги для старта.',
     'PROCESS-STEP-3-DETAIL-1':
-      'Полная прозрачность: проверьте готовность кампании, биллинг и статус страницы перед оплатой.',
+      'Доступны гибкие способы оплаты (криптовалюта, Payoneer, Wise, банковский перевод и т.д.).',
     'PROCESS-STEP-3-DETAIL-2':
-      'Наша команда поддержки поможет вам на этом этапе, ответив на все вопросы.',
+      'После получения оплаты вы можете немедленно начать запускать свои кампании.',
     'PROCESS-STEP-4-TITLE': '4. Подтверждение оплаты',
     'PROCESS-STEP-4-DESC':
       'Когда вы будете удовлетворены, переходите к оплате.',
@@ -652,6 +699,30 @@ var arrLang = {
       '<strong>✅ Результат:</strong> Вы сосредоточиваетесь только на запуске и масштабировании своих объявлений.',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> Вся техническая настройка, безопасность аккаунта и резервное копирование обрабатываются ProAgency.',
+
+    // Events Gallery
+    'EVENTS-TITLE': 'Галерея мероприятий',
+    'EVENTS-SUBTITLE':
+      'Посмотрите мероприятия, в которых мы участвовали, и впечатления команды.',
+    'EVENTS-HIGHLIGHT': 'Скоро',
+    'EVENTS-CARD-1-TITLE': 'Affiliate World Asia 2025',
+    'EVENTS-CARD-1-DATE': 'декабрь 2025',
+    'EVENTS-CARD-1-LOCATION': 'Бангкок, Таиланд',
+    'EVENTS-CARD-1-DESC':
+      'Мы готовимся вернуться в Бангкок на Affiliate World Asia 2025 с новыми инсайтами, партнерскими предложениями и живыми сессиями, которые помогут брендам масштабироваться безопасно и эффективно.',
+    'EVENTS-CARD-2-TITLE': 'BROCONF 4',
+    'EVENTS-CARD-2-DATE': '2-3 октября 2024',
+    'EVENTS-CARD-2-LOCATION': 'Москва, Россия',
+    'EVENTS-CARD-2-DESC':
+      'Четвертая конференция команды BroCard прошла в московском MTS Live Hall и собрала ключевых игроков индустрии. Для нас это стала возможность укрепить отношения с действующими клиентами, завести новые знакомства и обсудить перспективные партнерства.',
+    'EVENTS-CARD-3-TITLE': 'Affiliate World Asia 2024',
+    'EVENTS-CARD-3-DATE': '4-5 декабря 2024',
+    'EVENTS-CARD-3-LOCATION': 'Бангкок, Таиланд',
+    'EVENTS-CARD-3-DESC':
+      'Под лозунгом "Connect. Innovate. Dominate." площадка объединила ведущих специалистов по партнерскому маркетингу и e-commerce со всего мира. За два насыщенных дня участники делились опытом, получали новые знания и выстраивали долгосрочные связи, доказывая, что AWA - гораздо больше, чем очередная конференция.',
+    'EVENTS-MEDIA-TITLE': 'Фото и видео',
+    'EVENTS-MEDIA-SUBTITLE':
+      'Листайте, чтобы увидеть фото и видео с наших последних мероприятий.',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Прочитайте, что говорят другие',
