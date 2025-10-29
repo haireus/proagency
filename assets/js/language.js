@@ -1,5 +1,9 @@
 var arrLang = {
   'en-gb': {
+    RATTING: 'Rating',
+    TRUSTED_WORLD_WIDE: 'Trusted by Clients from Worldwide',
+    RATING_LABEL: 'Rating',
+    RATING_DESC: 'Trusted by Clients from Worldwide',
     HOME: 'Home',
     ACCOUNT: 'About Us',
     PROCESS: 'Process',
@@ -9,11 +13,11 @@ var arrLang = {
     TITLE1B: '',
     TITLE1C: 'Reliable & Scalable Advertising Solutions',
     DESC1:
-      'Looking to rent Facebook ad accounts for safe and scalable advertising? Our Facebook Ad Accounts Rental Services help businesses enhance their social media presence, run high-performing ads, and drive targeted leads with ease.',
+      'Pro Agency elevates your brand with premium Facebook advertising solutions, meticulously designed to drive breakthrough and sustainable growth.',
     START: 'GET A FREE QUOTE',
     TITLE2: 'About ProAgency – Trusted Facebook Ad Accounts Provider',
     DESC2:
-      'Facebook advertising is becoming more challenging, and account restrictions affect businesses of all sizes. Many advertisers struggle with unstable accounts, sudden bans, and limited scalability. With years of experience in social media advertising, <strong>ProAgency specializes in providing safe and verified Facebook Ad Accounts</strong> to help businesses and agencies worldwide overcome these difficulties. Our solutions include <strong>scalable accounts, full 24/7 support, and guaranteed replacements,</strong> giving you the confidence to run campaigns smoothly and grow without limits.',
+      '<strong>ProAgency specializes in providing safe and verified Facebook Ad Accounts</strong> to help businesses and agencies worldwide overcome these difficulties. Our solutions include <strong>scalable accounts, full 24/7 support, and guaranteed replacements,</strong> giving you the confidence to run campaigns smoothly and grow without limits.',
 
     // Team Members Section
     'TEAM-TITLE': 'Meet Our Team',
@@ -145,6 +149,35 @@ var arrLang = {
       '<strong>✅ Result:</strong> You only focus on running and scaling your ads.',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> All the technical setup, account security, and backup are handled by ProAgency.',
+
+    //TESTIMONIALS
+    'TESTIMONIALS-TITLE': 'Read what Others have to say',
+    'TESTIMONIAL-1-TEXT':
+      '"I had issues with my previous ad accounts always getting restricted. ProAgency provided me with a verified BM and stable accounts that worked perfectly. No more stress about sudden bans. Super reliable service!"',
+    'TESTIMONIAL-1-NAME': 'John M.',
+    'TESTIMONIAL-1-TITLE': 'E-commerce Store Owner',
+    'TESTIMONIAL-1-FLAG': '🇺🇸',
+    'TESTIMONIAL-2-TEXT':
+      '"The support team at ProAgency is amazing. They walked me through every step, set up my ads on VPS, and even gave me a free Smart Pixel. I\'ve never experienced such smooth onboarding before. Highly recommended."',
+    'TESTIMONIAL-2-NAME': 'Lisa Tran',
+    'TESTIMONIAL-2-TITLE': 'Digital Marketer',
+    'TESTIMONIAL-2-FLAG': '🇸🇬',
+    'TESTIMONIAL-3-TEXT':
+      '"Signed up and got a 3-day free trial plus $500 bonus on my first top-up. Totally worth it. Transparent fees, fast recharge, and accounts that actually work. Definitely my go-to for Facebook advertising."',
+    'TESTIMONIAL-3-NAME': 'Carlos R.',
+    'TESTIMONIAL-3-TITLE': 'Dropshipping Entrepreneur',
+    'TESTIMONIAL-3-FLAG': '🇪🇸',
+    'TESTIMONIAL-4-TEXT':
+      '"Great service. The accounts are strong, verified, and easy to scale. I\'ve been using them for 2 months now without a single issue."',
+    'TESTIMONIAL-4-NAME': 'Emily K.',
+    'TESTIMONIAL-4-TITLE': 'Performance Marketing Specialist',
+    'TESTIMONIAL-4-FLAG': '🇬🇧',
+    'TESTIMONIAL-5-TEXT':
+      '"As an agency owner, I needed a trusted partner for ad accounts. ProAgency delivered exactly what they promised – secure accounts, fast replacement if needed, and expert consultancy. They\'re professional and trustworthy."',
+    'TESTIMONIAL-5-NAME': 'David Nguyen',
+    'TESTIMONIAL-5-TITLE': 'Agency Founder',
+    'TESTIMONIAL-5-FLAG': '🇨🇦',
+
     //OUR FEATURES
     'FEATURE-TITLE': 'Our Features',
     'F-1-TITLE': 'Invoice Trusted Ads Accounts',
@@ -232,6 +265,8 @@ var arrLang = {
     'POPUP-CTA': 'Contact us on Telegram',
   },
   'zh-tw': {
+    RATING_LABEL: '评分',
+    RATING_DESC: '获得全球客户信赖',
     HOME: '主页',
     ACCOUNT: '帐户',
     PROCESS: '过程',
@@ -359,6 +394,35 @@ var arrLang = {
       '<strong>✅ 结果：</strong> 您只需专注于投放和扩展广告。',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> 所有技术设置、账户安全和备份都由ProAgency处理。',
+
+    //TESTIMONIALS
+    'TESTIMONIALS-TITLE': '看看其他人怎么说',
+    'TESTIMONIAL-1-TEXT':
+      '"我之前的广告账户总是受到限制。ProAgency为我提供了经过验证的BM和稳定的账户，运行完美。不再担心突然被封。非常可靠的服务！"',
+    'TESTIMONIAL-1-NAME': 'John M.',
+    'TESTIMONIAL-1-TITLE': '电商店主',
+    'TESTIMONIAL-1-FLAG': '🇺🇸',
+    'TESTIMONIAL-2-TEXT':
+      '"ProAgency的支持团队非常出色。他们带我完成每一步，在VPS上设置广告，甚至给了我免费的智能像素。我从未经历过如此顺畅的入门体验。强烈推荐。"',
+    'TESTIMONIAL-2-NAME': 'Lisa Tran',
+    'TESTIMONIAL-2-TITLE': '数字营销人员',
+    'TESTIMONIAL-2-FLAG': '🇸🇬',
+    'TESTIMONIAL-3-TEXT':
+      '"注册后获得了3天免费试用和首次充值$500奖金。完全值得。费用透明，充值快速，账户真的有效。绝对是我Facebook广告的首选。"',
+    'TESTIMONIAL-3-NAME': 'Carlos R.',
+    'TESTIMONIAL-3-TITLE': '代发货企业家',
+    'TESTIMONIAL-3-FLAG': '🇪🇸',
+    'TESTIMONIAL-4-TEXT':
+      '"很棒的服务。账户强大、经过验证且易于扩展。我已经使用了2个月，没有任何问题。"',
+    'TESTIMONIAL-4-NAME': 'Emily K.',
+    'TESTIMONIAL-4-TITLE': '绩效营销专家',
+    'TESTIMONIAL-4-FLAG': '🇬🇧',
+    'TESTIMONIAL-5-TEXT':
+      '"作为代理所有者，我需要一个值得信赖的广告账户合作伙伴。ProAgency完全兑现了承诺——安全的账户、快速更换（如需要）和专家咨询。他们专业且值得信赖。"',
+    'TESTIMONIAL-5-NAME': 'David Nguyen',
+    'TESTIMONIAL-5-TITLE': '代理创始人',
+    'TESTIMONIAL-5-FLAG': '🇨🇦',
+
     //OUR FEATURES
     'FEATURE-TITLE': '我们的特色',
     'F-1-TITLE': '为可信广告帐户开具发票',
@@ -438,6 +502,8 @@ var arrLang = {
     'POPUP-CTA': '在Telegram上联系我们',
   },
   'ru-gb': {
+    RATING_LABEL: 'Рейтинг',
+    RATING_DESC: 'Доверие клиентов по всему миру',
     HOME: 'Главная',
     ACCOUNT: 'О нас',
     PROCESS: 'Аренда',
@@ -579,6 +645,35 @@ var arrLang = {
       '<strong>✅ Результат:</strong> Вы сосредоточиваетесь только на запуске и масштабировании своих объявлений.',
     'PROCESS-RESULT-2':
       '<strong>👉</strong> Вся техническая настройка, безопасность аккаунта и резервное копирование обрабатываются ProAgency.',
+
+    //TESTIMONIALS
+    'TESTIMONIALS-TITLE': 'Прочитайте, что говорят другие',
+    'TESTIMONIAL-1-TEXT':
+      '"У меня были проблемы с предыдущими рекламными аккаунтами, которые постоянно блокировались. ProAgency предоставило мне проверенный BM и стабильные аккаунты, которые работали идеально. Больше никакого стресса из-за внезапных банов. Супер надежный сервис!"',
+    'TESTIMONIAL-1-NAME': 'John M.',
+    'TESTIMONIAL-1-TITLE': 'Владелец интернет-магазина',
+    'TESTIMONIAL-1-FLAG': '🇺🇸',
+    'TESTIMONIAL-2-TEXT':
+      '"Команда поддержки ProAgency потрясающая. Они провели меня через каждый шаг, настроили рекламу на VPS и даже дали бесплатный Smart Pixel. Я никогда не испытывал такого плавного подключения. Очень рекомендую."',
+    'TESTIMONIAL-2-NAME': 'Lisa Tran',
+    'TESTIMONIAL-2-TITLE': 'Цифровой маркетолог',
+    'TESTIMONIAL-2-FLAG': '🇸🇬',
+    'TESTIMONIAL-3-TEXT':
+      '"Зарегистрировался и получил 3-дневную бесплатную пробную версию плюс бонус $500 при первом пополнении. Полностью стоит того. Прозрачные сборы, быстрое пополнение и аккаунты, которые действительно работают. Определенно мой выбор для рекламы в Facebook."',
+    'TESTIMONIAL-3-NAME': 'Carlos R.',
+    'TESTIMONIAL-3-TITLE': 'Предприниматель дропшиппинга',
+    'TESTIMONIAL-3-FLAG': '🇪🇸',
+    'TESTIMONIAL-4-TEXT':
+      '"Отличный сервис. Аккаунты сильные, проверенные и легко масштабируемые. Я использую их уже 2 месяца без единой проблемы."',
+    'TESTIMONIAL-4-NAME': 'Emily K.',
+    'TESTIMONIAL-4-TITLE': 'Специалист по перформанс-маркетингу',
+    'TESTIMONIAL-4-FLAG': '🇬🇧',
+    'TESTIMONIAL-5-TEXT':
+      '"Как владелец агентства, мне нужен был надежный партнер для рекламных аккаунтов. ProAgency предоставило именно то, что обещало – безопасные аккаунты, быструю замену при необходимости и экспертные консультации. Они профессиональны и заслуживают доверия."',
+    'TESTIMONIAL-5-NAME': 'David Nguyen',
+    'TESTIMONIAL-5-TITLE': 'Основатель агентства',
+    'TESTIMONIAL-5-FLAG': '🇨🇦',
+
     //OUR FEATURES
     'FEATURE-TITLE': 'Наши возможности',
     'F-1-TITLE': 'Только качественные рекламные аккаунты',
