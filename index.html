@@ -294,6 +294,15 @@
 
             <li class="navbar-item">
               <a
+                href="news.html"
+                class="lang navbar-link"
+                key="NEWS-NAV"
+                data-navbar-link
+              ></a>
+            </li>
+
+            <li class="navbar-item">
+              <a
                 href="#about"
                 class="lang navbar-link"
                 key="ACCOUNT"
@@ -1806,6 +1815,79 @@
         </section>
 
         <!-- 
+        - #NEWS
+      -->
+
+        <section class="section news-preview" id="news">
+          <div class="container">
+            <div class="news-preview-header">
+              <div>
+                <p class="news-eyebrow lang" key="NEWS-EYEBROW"></p>
+                <h2
+                  class="h2 section-title news-title lang"
+                  key="NEWS-SECTION-TITLE"
+                ></h2>
+              </div>
+
+              <a href="news.html" class="btn-outline news-view-all">
+                <span class="lang" key="NEWS-READ-ALL"></span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+
+            <div class="news-card-grid">
+              <article class="news-card">
+                <a
+                  href="news.html#news-account-locks"
+                  class="news-card-link"
+                >
+                  <div class="news-card-media news-card-media-1" aria-hidden="true">
+                    <span class="news-card-badge lang" key="NEWS-CATEGORY-STRATEGY"></span>
+                  </div>
+                  <div class="news-card-content">
+                    <h3 class="news-card-title lang" key="NEWS-CARD-1-TITLE"></h3>
+                    <p class="news-card-excerpt lang" key="NEWS-CARD-1-EXCERPT"></p>
+                    <p class="news-card-date lang" key="NEWS-CARD-1-DATE"></p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="news-card">
+                <a
+                  href="news.html#news-fanpage-restrictions"
+                  class="news-card-link"
+                >
+                  <div class="news-card-media news-card-media-2" aria-hidden="true">
+                    <span class="news-card-badge lang" key="NEWS-CATEGORY-COMPLIANCE"></span>
+                  </div>
+                  <div class="news-card-content">
+                    <h3 class="news-card-title lang" key="NEWS-CARD-2-TITLE"></h3>
+                    <p class="news-card-excerpt lang" key="NEWS-CARD-2-EXCERPT"></p>
+                    <p class="news-card-date lang" key="NEWS-CARD-2-DATE"></p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="news-card">
+                <a
+                  href="news.html#news-business-manager"
+                  class="news-card-link"
+                >
+                  <div class="news-card-media news-card-media-3" aria-hidden="true">
+                    <span class="news-card-badge lang" key="NEWS-CATEGORY-GUIDE"></span>
+                  </div>
+                  <div class="news-card-content">
+                    <h3 class="news-card-title lang" key="NEWS-CARD-3-TITLE"></h3>
+                    <p class="news-card-excerpt lang" key="NEWS-CARD-3-EXCERPT"></p>
+                    <p class="news-card-date lang" key="NEWS-CARD-3-DATE"></p>
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
         - Question
       -->
 
@@ -2146,6 +2228,9 @@
         </li>
         <li class="menu__item">
           <a class="menu__link lang" href="team.html" key="TEAM-NAV">Team</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link lang" href="news.html" key="NEWS-NAV">News</a>
         </li>
         <li class="menu__item">
           <a class="menu__link lang" href="#about" key="ACCOUNT">Account</a>

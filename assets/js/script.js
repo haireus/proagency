@@ -82,7 +82,10 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += ' active';
 }
 
-document.getElementById('defaultOpen').click();
+const defaultTabTrigger = document.getElementById('defaultOpen');
+if (defaultTabTrigger) {
+  defaultTabTrigger.click();
+}
 
 //--- Accordion --- //
 const items = document.querySelectorAll('.accordion button');
@@ -118,15 +121,58 @@ document.addEventListener('DOMContentLoaded', function () {
       if (targetElement) {
         e.preventDefault();
 
-        const targetPosition = targetElement.offsetTop - headerHeight;
+        const scrollToTarget = (element, behavior = 'smooth') => {
+          const targetPosition =
+            element.getBoundingClientRect().top + window.scrollY - headerHeight;
 
-        window.scrollTo({
-          top: targetPosition,
-          behavior: 'smooth',
-        });
+          window.scrollTo({
+            top: targetPosition,
+            behavior,
+          });
+        };
+
+        if (
+          targetElement.classList.contains('news-entry') &&
+          targetElement.tagName.toLowerCase() === 'details'
+        ) {
+          targetElement.setAttribute('open', '');
+          scrollToTarget(targetElement);
+        } else {
+          scrollToTarget(targetElement);
+        }
       }
     });
   });
+
+  const openNewsEntryFromHash = (behavior = 'auto') => {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const targetElement = document.querySelector(hash);
+    if (
+      targetElement &&
+      targetElement.classList.contains('news-entry') &&
+      targetElement.tagName.toLowerCase() === 'details'
+    ) {
+      targetElement.setAttribute('open', '');
+      const targetPosition =
+        targetElement.getBoundingClientRect().top +
+        window.scrollY -
+        headerHeight;
+      window.scrollTo({
+        top: targetPosition,
+        behavior,
+      });
+    }
+  };
+
+  // Open relevant news article if arriving with a hash
+  if (window.location.hash) {
+    setTimeout(() => {
+      openNewsEntryFromHash('auto');
+    }, 120);
+  }
+
+  window.addEventListener('hashchange', () => openNewsEntryFromHash());
 
   // Events gallery media switcher
   const mediaViewer = document.querySelector('[data-event-media]');
