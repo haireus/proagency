@@ -6,18 +6,19 @@ var arrLang = {
     RATING_DESC: 'Trusted by Clients from Worldwide',
     HOME: 'Home',
     ACCOUNT: 'About Us',
+    'TEAM-NAV': 'Meet Our Team',
     PROCESS: 'Process',
     QUESTION: 'Question',
     CONTACT: 'Contact',
-    TITLE1A: 'Facebook Ad Accounts Rental Services',
+    TITLE1A: 'Facebook Business Account Rental Services',
     TITLE1B: '',
     TITLE1C: 'Reliable & Scalable Advertising Solutions',
     DESC1:
       'Pro Agency elevates your brand with premium Facebook advertising solutions, meticulously designed to drive breakthrough and sustainable growth.',
     START: 'GET A FREE QUOTE',
-    TITLE2: 'About ProAgency – Trusted Facebook Ad Accounts Provider',
+    TITLE2: 'About ProAgency – Trusted Facebook Business Account Provider',
     DESC2:
-      '<strong>ProAgency specializes in providing safe and verified Facebook Ad Accounts</strong> to help businesses and agencies worldwide overcome these difficulties. Our solutions include <strong>scalable accounts, full 24/7 support, and guaranteed replacements,</strong> giving you the confidence to run campaigns smoothly and grow without limits.',
+      '<strong>ProAgency specializes in providing safe and verified Facebook Business Accounts</strong> to help businesses and agencies worldwide overcome these difficulties. Our solutions include <strong>scalable accounts, full 24/7 support, and guaranteed replacements,</strong> giving you the confidence to run campaigns smoothly and grow without limits.',
 
     // Team Members Section
     'TEAM-TITLE': 'Meet Our Team',
@@ -37,7 +38,7 @@ var arrLang = {
     'LEADER3-NAME': 'Mr. Tung',
     'LEADER3-TITLE': 'Technical Operations Leader',
     'LEADER3-DESC':
-      'Tung leads our team of technical specialists who work behind the scenes to ensure the health and stability of every ad account. He proactively monitors for potential issues and is an expert in navigating complex platform policies. His team handles the technical heavy lifting, giving you the peace of mind to focus on your advertising strategy.',
+      'Tung leads our team of technical specialists who work behind the scenes to ensure the health and stability of every business account. He proactively monitors for potential issues and is an expert in navigating complex platform policies. His team handles the technical heavy lifting, giving you the peace of mind to focus on your advertising strategy.',
 
     // Global Presence Section
     'GLOBAL-TITLE': 'Our Global Presence',
@@ -45,10 +46,11 @@ var arrLang = {
       'Serving 500+ clients across multiple continents with cutting-edge advertising solutions',
 
     STATUS1: 'All Products Supported',
-    'DESC-STATUS1': 'Compatible with White hat and light Grey hat campaigns.',
+    'DESC-STATUS1':
+      'Compatible with standard and advanced optimization campaigns.',
     STATUS2: 'Refund Guarantee',
     'DESC-STATUS2':
-      'Get a refund of unused balance anytime you stop working with our ad accounts.',
+      'Get a refund of unused balance anytime you stop working with our business accounts.',
     STATUS3: '0% VAT',
     'DESC-STATUS3': 'Transparent pricing with zero VAT added.',
     STATUS4: 'Unlimited Spending',
@@ -59,8 +61,8 @@ var arrLang = {
     STATUS6: 'Business Contracts',
     'DESC-STATUS6':
       ' Free fanpage appeal and official business contract available.',
-    TITLE3: 'Our Facebook Personal Ad Accounts for Rent',
-    TAB1: 'Personal Ads account',
+    TITLE3: 'Our Facebook Personal Business Accounts for Rent',
+    TAB1: 'Personal Business Account',
     TAB2: 'Business Manager',
     TAB3: 'Fanpage',
     TAB4: 'Profile',
@@ -92,7 +94,7 @@ var arrLang = {
     'DESC-BM-1500': 'Can spend up to $1500 per day.',
     'DESC-BM-NORMAL-NOLIMIT': 'Can spend from $5000 to unlimited per day.',
     'DESC-BM-OLD-1':
-      'Verified with Facebook and has a "blue mark" , extremely good health, and is great to use for long-term White hat and Black hat campaigns.',
+      'Verified with Facebook and has a "blue mark", extremely good health, and is great to use for long-term standard and advanced optimization campaigns.',
     'DESC-BM-OLD-NOLIMIT': 'Can spend from $5000 to unlimited per day.',
     //TAB3
     'PAGE-NEW': 'New fanpage',
@@ -110,7 +112,7 @@ var arrLang = {
     //PROCESS
     'TITLE-PROCESS': 'PROCESS – How It Works',
     'DESC-PROCESS':
-      "At ProAgency, we make renting and running Facebook Ads Accounts fast, secure, and hassle-free. Here's the step-by-step process:",
+      "At ProAgency, we make renting and running Facebook Business Accounts fast, secure, and hassle-free. Here's the step-by-step process:",
     'PROCESS-STEP-1-TITLE': '1. Test Your Ads',
     'PROCESS-STEP-1-DESC':
       'We start by testing your campaign using our accounts.',
@@ -118,11 +120,11 @@ var arrLang = {
       'This helps us evaluate ad quality, compliance, and stability before scaling.',
     'PROCESS-STEP-1-DETAIL-2':
       "Ensures you don't waste budget on unstable accounts.",
-    'PROCESS-STEP-2-TITLE': '2. Prepare Ads Account',
+    'PROCESS-STEP-2-TITLE': '2. Prepare Marketing Setup',
     'PROCESS-STEP-2-DESC':
-      'We set up everything inside a secure VPS (RDP) or AdsPower (clean proxy).',
+      'We set up everything inside a secure VPS (RDP) or AdsPower (secure connection).',
     'PROCESS-STEP-2-DETAIL-1':
-      'The account comes with a strong profile, stable environment, and optimized setup.',
+      'The account comes with a verified profile, stable environment, and optimized setup.',
     'PROCESS-STEP-2-DETAIL-2':
       'Optional: verified page, credit card, and smart pixel integration available.',
     'PROCESS-STEP-3-TITLE': '3. Access & Review',
@@ -180,22 +182,24 @@ var arrLang = {
 
     //OUR FEATURES
     'FEATURE-TITLE': 'Our Features',
-    'F-1-TITLE': 'Invoice Trusted Ads Accounts',
+    'F-1-TITLE': 'Invoice Trusted Business Accounts',
     'F-1-DESC':
-      'Accounts are provided directly by authorized agency, with high trust factor, speediest ads approval time and easiest review progress for hard ads like DROP, P.O.D, comestics...',
+      'Accounts are provided directly by authorized agency, with high trust factor, speediest ads approval time and easiest review progress for hard ads like DROP, P.O.D, cosmetics...',
     'F-2-TITLE': 'Fast, Low and Transparent Fee',
     'F-2-DESC':
       '24/7 same day top up with low and transparent fee. Support many kinds of payment method.',
-    'F-3-TITLE': 'Total Ad Control',
+    'F-3-TITLE': 'Total Marketing Control',
     'F-3-DESC':
-      'Ads accounts will be shared to you, you can check anytime and will in total control of ads, cost, and customer data!',
+      'Business accounts will be shared to you, you can check anytime and will be in total control of ads, cost, and customer data!',
     'F-4-TITLE': 'Support & Consultancy',
     'F-4-DESC':
       'Our services include full technical supports from 10 years experienced expert on FB ads for helping you set up a running system and create ads following FB policies.',
     //QUESTION
     'QUESTION-TITLE': 'Frequently Asked Questions',
-    'Q-1': 'Can your account run Black Hat and Gray Hat campaigns?',
-    'A-1': 'Yes, our account can be used for Black Hat and Grey Hat campaigns.',
+    'Q-1':
+      'Can your account run advanced optimization and non-standard campaigns?',
+    'A-1':
+      'Yes, our account can be used for advanced optimization and alternative marketing strategies.',
 
     'Q-2': 'What types of accounts do you provide?',
     'A-2':
@@ -212,7 +216,7 @@ var arrLang = {
     'A-4': 'Our account has spending limits of $1500, 250 and no limit daily.',
 
     'Q-5': 'How do I use your account?',
-    'A-5': 'We set up everything and ad accounts in VPS, RDP or Adspower.',
+    'A-5': 'We set up everything and marketing access in VPS, RDP or AdsPower.',
     'A-5A':
       'You will be granted access to these software to control and use our account.',
 
@@ -233,7 +237,7 @@ var arrLang = {
 
     'Q-9': 'What is the service fee?',
     'A-9':
-      'We charge a service fee. This fee is 5-8% for White hat campaigns and 6-10% for Black hat campaigns.',
+      'We charge a service fee. This fee is 5-8% for standard campaigns and 6-10% for advanced optimization campaigns.',
     'A-9A': 'This fee may change if you spend well and stably.',
 
     'Q-10': 'What is the minimum spend to use your service?',
@@ -261,7 +265,7 @@ var arrLang = {
     'POPUP-BENEFIT-3': '$500 bonus gift on first deposit',
     'POPUP-BENEFIT-4': 'FREE Smart Pixel integration',
     'POPUP-BENEFIT-5': 'FREE Verified Page (blue tick) usage',
-    'POPUP-BENEFIT-6': 'FREE VPS or AdsPower (clean proxy)',
+    'POPUP-BENEFIT-6': 'FREE VPS or AdsPower (secure connection)',
     'POPUP-CTA': 'Contact us on Telegram',
   },
   'zh-tw': {
@@ -269,11 +273,12 @@ var arrLang = {
     RATING_DESC: '获得全球客户信赖',
     HOME: '主页',
     ACCOUNT: '帐户',
+    'TEAM-NAV': '团队成员',
     PROCESS: '过程',
     QUESTION: '问题',
     CONTACT: '接触',
     TITLE1A: '出租脸书',
-    TITLE1B: '广告账户',
+    TITLE1B: '商业账户',
     TITLE1C: '服务',
     DESC1:
       '无论您是希望增强品牌的社交媒体影响力，还是通过社交媒体广告吸引有针对性的潜在客户，我们的社交媒体广告服务都可以帮助您实现目标。',
@@ -364,16 +369,17 @@ var arrLang = {
     //PROCESS
     'TITLE-PROCESS': '流程 – 工作方式',
     'DESC-PROCESS':
-      '在ProAgency，我们让Facebook广告账户的租赁和运营变得快速、安全且无忧。以下是分步流程：',
+      '在ProAgency，我们让Facebook商业账户的租赁和运营变得快速、安全且无忧。以下是分步流程：',
     'PROCESS-STEP-1-TITLE': '1. 测试您的广告',
     'PROCESS-STEP-1-DESC': '我们首先使用我们的账户测试您的广告活动。',
     'PROCESS-STEP-1-DETAIL-1':
       '这有助于我们在扩展之前评估广告质量、合规性和稳定性。',
     'PROCESS-STEP-1-DETAIL-2': '确保您不会在不稳定的账户上浪费预算。',
-    'PROCESS-STEP-2-TITLE': '2. 准备广告账户',
+    'PROCESS-STEP-2-TITLE': '2. 准备营销设置',
     'PROCESS-STEP-2-DESC':
-      '我们在安全的VPS（RDP）或AdsPower（干净代理）内设置一切。',
-    'PROCESS-STEP-2-DETAIL-1': '账户配备强大的配置文件、稳定环境和优化设置。',
+      '我们在安全的VPS（RDP）或AdsPower（安全连接）内设置一切。',
+    'PROCESS-STEP-2-DETAIL-1':
+      '账户配备经过验证的配置文件、稳定环境和优化设置。',
     'PROCESS-STEP-2-DETAIL-2': '可选：经过验证的页面、信用卡和智能像素集成。',
     'PROCESS-STEP-3-TITLE': '3. 访问和审查',
     'PROCESS-STEP-3-DESC': '您将获得登录权限来检查账户设置。',
@@ -398,7 +404,7 @@ var arrLang = {
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': '看看其他人怎么说',
     'TESTIMONIAL-1-TEXT':
-      '"我之前的广告账户总是受到限制。ProAgency为我提供了经过验证的BM和稳定的账户，运行完美。不再担心突然被封。非常可靠的服务！"',
+      '"我之前的商业账户总是受到限制。ProAgency为我提供了经过验证的BM和稳定的账户，运行完美。不再担心突然被封。非常可靠的服务！"',
     'TESTIMONIAL-1-NAME': 'John M.',
     'TESTIMONIAL-1-TITLE': '电商店主',
     'TESTIMONIAL-1-FLAG': '🇺🇸',
@@ -418,7 +424,7 @@ var arrLang = {
     'TESTIMONIAL-4-TITLE': '绩效营销专家',
     'TESTIMONIAL-4-FLAG': '🇬🇧',
     'TESTIMONIAL-5-TEXT':
-      '"作为代理所有者，我需要一个值得信赖的广告账户合作伙伴。ProAgency完全兑现了承诺——安全的账户、快速更换（如需要）和专家咨询。他们专业且值得信赖。"',
+      '"作为代理所有者，我需要一个值得信赖的商业账户合作伙伴。ProAgency完全兑现了承诺——安全的账户、快速更换（如需要）和专家咨询。他们专业且值得信赖。"',
     'TESTIMONIAL-5-NAME': 'David Nguyen',
     'TESTIMONIAL-5-TITLE': '代理创始人',
     'TESTIMONIAL-5-FLAG': '🇨🇦',
@@ -432,7 +438,7 @@ var arrLang = {
     'F-2-DESC': '24/7当日充值，费用低且透明。支持多种支付方式。',
     'F-3-TITLE': '全面广告控制',
     'F-3-DESC':
-      '广告账户将共享给您，您可以随时查看，并完全掌控广告、费用和客户数据！',
+      '商业账户将共享给您，您可以随时查看，并完全掌控广告、费用和客户数据！',
     'F-4-TITLE': '支持与咨询',
     'F-4-DESC':
       '我们的服务包括由 10 年 FB 广告经验丰富的专家提供的全面技术支持，帮助您建立运行系统并按照 FB 政策创建广告。',
@@ -506,11 +512,12 @@ var arrLang = {
     RATING_DESC: 'Доверие клиентов по всему миру',
     HOME: 'Главная',
     ACCOUNT: 'О нас',
+    'TEAM-NAV': 'Наша команда',
     PROCESS: 'Аренда',
     QUESTION: 'Вопросы',
     CONTACT: 'Связаться',
     TITLE1A: 'Услуги аренды',
-    TITLE1B: 'Рекламных аккаунтов',
+    TITLE1B: 'Бизнес-аккаунтов',
     TITLE1C: 'Facebook',
     DESC1:
       'Если вы хотите повысить узнаваемость своего бизнеса в социальных сетях или привлечь целевых клиентов с помощью рекламы, наши услуги по аренде аккаунтов facebook помогут вам.',
@@ -669,7 +676,7 @@ var arrLang = {
     'TESTIMONIAL-4-TITLE': 'Специалист по перформанс-маркетингу',
     'TESTIMONIAL-4-FLAG': '🇬🇧',
     'TESTIMONIAL-5-TEXT':
-      '"Как владелец агентства, мне нужен был надежный партнер для рекламных аккаунтов. ProAgency предоставило именно то, что обещало – безопасные аккаунты, быструю замену при необходимости и экспертные консультации. Они профессиональны и заслуживают доверия."',
+      '"Как владелец агентства, мне нужен был надежный партнер для бизнес-аккаунтов. ProAgency предоставило именно то, что обещало – безопасные аккаунты, быструю замену при необходимости и экспертные консультации. Они профессиональны и заслуживают доверия."',
     'TESTIMONIAL-5-NAME': 'David Nguyen',
     'TESTIMONIAL-5-TITLE': 'Основатель агентства',
     'TESTIMONIAL-5-FLAG': '🇨🇦',
