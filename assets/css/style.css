@@ -1912,6 +1912,17 @@ body {
   margin-top: 20px;
 }
 
+.news-entry-image {
+  margin-top: 18px;
+}
+
+.news-entry-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
 .news-entry-content p {
   color: #2e3354;
   line-height: 1.75;

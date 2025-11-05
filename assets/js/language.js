@@ -182,21 +182,22 @@ var arrLang = {
     'NEWS-CATEGORY-STRATEGY': 'Strategy',
     'NEWS-CATEGORY-COMPLIANCE': 'Compliance',
     'NEWS-CATEGORY-GUIDE': 'Guides',
+    'NEWS-CATEGORY-TRENDS': 'Trends',
     'NEWS-CARD-1-TITLE':
-      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
     'NEWS-CARD-1-EXCERPT':
-      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
-    'NEWS-CARD-1-DATE': 'October 12, 2025',
+      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
+    'NEWS-CARD-1-DATE': 'October 20, 2025',
     'NEWS-CARD-2-TITLE':
-      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
-      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
-    'NEWS-CARD-2-DATE': 'October 7, 2025',
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-2-DATE': 'October 12, 2025',
     'NEWS-CARD-3-TITLE':
-      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
     'NEWS-CARD-3-EXCERPT':
-      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
-    'NEWS-CARD-3-DATE': 'September 28, 2025',
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-3-DATE': 'October 7, 2025',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Read what Others have to say',
@@ -478,21 +479,22 @@ var arrLang = {
     'NEWS-CATEGORY-STRATEGY': '策略',
     'NEWS-CATEGORY-COMPLIANCE': '合规',
     'NEWS-CATEGORY-GUIDE': '指南',
+    'NEWS-CATEGORY-TRENDS': '趨勢',
     'NEWS-CARD-1-TITLE':
-      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
     'NEWS-CARD-1-EXCERPT':
-      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
-    'NEWS-CARD-1-DATE': '2025年10月12日',
+      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
+    'NEWS-CARD-1-DATE': '2025年10月20日',
     'NEWS-CARD-2-TITLE':
-      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
-      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
-    'NEWS-CARD-2-DATE': '2025年10月7日',
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-2-DATE': '2025年10月12日',
     'NEWS-CARD-3-TITLE':
-      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
     'NEWS-CARD-3-EXCERPT':
-      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
-    'NEWS-CARD-3-DATE': '2025年9月28日',
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-3-DATE': '2025年10月7日',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': '看看其他人怎么说',
@@ -778,21 +780,22 @@ var arrLang = {
     'NEWS-CATEGORY-STRATEGY': 'Стратегия',
     'NEWS-CATEGORY-COMPLIANCE': 'Комплаенс',
     'NEWS-CATEGORY-GUIDE': 'Гайды',
+    'NEWS-CATEGORY-TRENDS': 'Тренды',
     'NEWS-CARD-1-TITLE':
-      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
+      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
     'NEWS-CARD-1-EXCERPT':
-      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
-    'NEWS-CARD-1-DATE': '12 октября 2025',
+      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
+    'NEWS-CARD-1-DATE': '20 октября 2025',
     'NEWS-CARD-2-TITLE':
-      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
+      '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
-      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
-    'NEWS-CARD-2-DATE': '7 октября 2025',
+      'Protect your business with a proactive checklist that keeps ad accounts healthy and campaigns live.',
+    'NEWS-CARD-2-DATE': '12 октября 2025',
     'NEWS-CARD-3-TITLE':
-      'Renting vs. Creating a Facebook Business Manager: Which Path Fits You?',
+      'Why Is a Fanpage Not Allowed to Advertise? 4 Main Reasons',
     'NEWS-CARD-3-EXCERPT':
-      'Compare control, security, and speed so you can choose the right Business Manager strategy for growth.',
-    'NEWS-CARD-3-DATE': '28 сентября 2025',
+      'Understand the top policy, quality, security, and landing page issues that trigger Facebook ad restrictions.',
+    'NEWS-CARD-3-DATE': '7 октября 2025',
 
     //TESTIMONIALS
     'TESTIMONIALS-TITLE': 'Прочитайте, что говорят другие',
