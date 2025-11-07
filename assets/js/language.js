@@ -184,10 +184,10 @@ var arrLang = {
     'NEWS-CATEGORY-GUIDE': 'Guides',
     'NEWS-CATEGORY-TRENDS': 'Trends',
     'NEWS-CARD-1-TITLE':
-      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
+      "Affiliate World Europe Budapest 2025: 5 Lessons on Meta's Ad Delivery System",
     'NEWS-CARD-1-EXCERPT':
-      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
-    'NEWS-CARD-1-DATE': 'October 20, 2025',
+      "A $150M media buyer explains why feeding Meta clean data, bold creative, and patient budgets unlocks the algorithm.",
+    'NEWS-CARD-1-DATE': 'November 5, 2025',
     'NEWS-CARD-2-TITLE':
       '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
@@ -481,10 +481,10 @@ var arrLang = {
     'NEWS-CATEGORY-GUIDE': '指南',
     'NEWS-CATEGORY-TRENDS': '趨勢',
     'NEWS-CARD-1-TITLE':
-      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
+      'Affiliate World Europe Budapest 2025：Meta 投放系統的 5 個關鍵洞察',
     'NEWS-CARD-1-EXCERPT':
-      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
-    'NEWS-CARD-1-DATE': '2025年10月20日',
+      '1.5 億美元投放經驗證明：只有用乾淨數據、大膽創意與耐心預算餵養 Meta 演算法，才能穩定擴量。',
+    'NEWS-CARD-1-DATE': '2025年11月5日',
     'NEWS-CARD-2-TITLE':
       '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
@@ -782,10 +782,10 @@ var arrLang = {
     'NEWS-CATEGORY-GUIDE': 'Гайды',
     'NEWS-CATEGORY-TRENDS': 'Тренды',
     'NEWS-CARD-1-TITLE':
-      "Facebook's Algorithm Has Changed - It's Now Way More Like TikTok Than You Think!",
+      'Affiliate World Europe Budapest 2025: 5 уроков о системе доставки Meta',
     'NEWS-CARD-1-EXCERPT':
-      "See what a 30-day test across profiles, Fanpages, and brand new pages reveals about Facebook's TikTok-style discovery shift.",
-    'NEWS-CARD-1-DATE': '20 октября 2025',
+      'Опыт закупки на $150 млн показывает: алгоритм Meta раскрывается, когда вы даёте ему чистые данные, смелый креатив и терпеливые бюджеты.',
+    'NEWS-CARD-1-DATE': '5 ноября 2025',
     'NEWS-CARD-2-TITLE':
       '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
     'NEWS-CARD-2-EXCERPT':
