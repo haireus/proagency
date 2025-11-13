@@ -392,14 +392,6 @@ document.addEventListener('DOMContentLoaded', function () {
       alt: 'Affiliate World Asia 2024 walkthrough video',
       mime: 'video/mp4',
     },
-    // {
-    //   type: 'video',
-    //   src: './assets/images/Affiliate World Asia.mov',
-    //   poster: './assets/images/Affiliate World Asia.jpg',
-    //   thumb: './assets/images/Affiliate World Asia.jpg',
-    //   alt: 'Affiliate World Asia 2024 behind the scenes video',
-    //   mime: 'video/quicktime',
-    // },
     {
       type: 'image',
       src: './assets/images/BROCONF 4 2024.jpg',
@@ -417,6 +409,28 @@ document.addEventListener('DOMContentLoaded', function () {
       src: './assets/images/BROCONF 4 2024.png',
       thumb: './assets/images/BROCONF 4 2024.png',
       alt: 'BROCONF 4 conference main stage',
+    },
+    {
+      type: 'video',
+      src: './assets/images/afw budapest 2025.mp4',
+      poster: './assets/images/budapest 2.jpg',
+      thumb: './assets/images/budapest 2.jpg',
+      alt: 'Affiliate World Budapest 2025 announcement video',
+      mime: 'video/mp4',
+    },
+    {
+      type: 'image',
+      src: './assets/images/budapest 2.jpg',
+      thumb: './assets/images/budapest 2.jpg',
+      alt: 'Budapest cityscape with Affiliate World branding',
+    },
+    {
+      type: 'video',
+      src: './assets/images/budapest 2.mp4',
+      poster: './assets/images/budapest 2.jpg',
+      thumb: './assets/images/budapest 2.jpg',
+      alt: 'Affiliate World Budapest 2025 teaser video',
+      mime: 'video/mp4',
     },
   ];
 
