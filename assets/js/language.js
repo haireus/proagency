@@ -1,5 +1,7 @@
 var arrLang = {
   'en-gb': {
+    LEGAL_DISCLAIMER:
+      'Legal Disclaimer: Proagency.work reserves the right to refuse any project that involves advertising illegal products or services. Clients bear full responsibility and liability for ensuring their campaigns comply with all applicable laws in Vietnam and any other relevant jurisdictions.',
     RATING_LABEL: 'Rating',
     RATING_DESC: 'Trusted by Clients from Worldwide',
     HOME: 'Home',
@@ -186,7 +188,7 @@ var arrLang = {
     'NEWS-CARD-1-TITLE':
       "Affiliate World Europe Budapest 2025: 5 Lessons on Meta's Ad Delivery System",
     'NEWS-CARD-1-EXCERPT':
-      "A $150M media buyer explains why feeding Meta clean data, bold creative, and patient budgets unlocks the algorithm.",
+      'A $150M media buyer explains why feeding Meta clean data, bold creative, and patient budgets unlocks the algorithm.',
     'NEWS-CARD-1-DATE': 'November 5, 2025',
     'NEWS-CARD-2-TITLE':
       '5 Tips to Reduce the Risk of Your Advertising Account Being Locked',
@@ -316,6 +318,8 @@ var arrLang = {
     'POPUP-CTA': 'Contact us on Telegram',
   },
   'zh-tw': {
+    LEGAL_DISCLAIMER:
+      '法律免责声明：Proagency.work 保留拒绝涉及非法产品或服务广告项目的权利。客户需对其广告活动是否遵守越南及其他相关司法管辖区的所有适用法律承担全部责任。',
     RATING_LABEL: '评分',
     RATING_DESC: '获得全球客户信赖',
     HOME: '主页',
@@ -603,6 +607,8 @@ var arrLang = {
     'POPUP-CTA': '在Telegram上联系我们',
   },
   'ru-gb': {
+    LEGAL_DISCLAIMER:
+      'Юридический отказ: Proagency.work оставляет за собой право отказать в любом проекте, связанном с рекламой незаконных товаров или услуг. Клиенты несут полную ответственность за то, чтобы их кампании соответствовали всем применимым законам Вьетнама и других соответствующих юрисдикций.',
     RATING_LABEL: 'Рейтинг',
     RATING_DESC: 'Доверие клиентов по всему миру',
     HOME: 'Главная',
