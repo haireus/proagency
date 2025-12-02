@@ -2011,10 +2011,16 @@ body {
 }
 
 .news-entry-content a {
+  display: inline;
   color: #4b5fff;
   text-decoration: none;
   border-bottom: 1px solid rgba(75, 95, 255, 0.4);
   transition: border-color 0.2s ease;
+}
+
+.news-entry-title a,
+.news-entry-summary-excerpt a {
+  display: inline;
 }
 
 .news-entry-content a:hover {
