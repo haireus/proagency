@@ -254,6 +254,27 @@
 
         <section class="news-articles">
           <div class="container">
+            <details class="news-entry" id="news-facebook-topup-safety">
+              <summary class="news-entry-summary">
+                <div class="news-entry-summary-top">
+                  <span class="news-entry-category">Facebook Ads Tips &amp; Tricks</span>
+                  <time datetime="2025-12-20" class="news-entry-date">December 20, 2025</time>
+                </div>
+                <h2 class="news-entry-title">
+                  How to Top-up Facebook Ads Account Safely: The 2025 Survival Guide for Global Advertisers
+                </h2>
+                <p class="news-entry-summary-excerpt">
+                  Safe pre-payment checklist, step-by-step process, and when to switch to agency accounts to avoid Meta payment flags.
+                </p>
+              </summary>
+              <div
+                class="news-entry-content news-entry-markdown"
+                data-markdown-src="./How to Top-up Facebook Ads Account Safely.md"
+              >
+                <p class="news-entry-loading">Loading article...</p>
+              </div>
+            </details>
+
             <details class="news-entry" id="news-quantum-proxies">
               <summary class="news-entry-summary">
                 <div class="news-entry-summary-top">
@@ -1747,5 +1768,27 @@
         </div>
       </div>
     </div>
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      (function () {
+        const blocks = document.querySelectorAll('[data-markdown-src]');
+        if (!blocks.length) return;
+        blocks.forEach((block) => {
+          const src = block.getAttribute('data-markdown-src');
+          fetch(src)
+            .then((resp) => {
+              if (!resp.ok) throw new Error('Failed to load markdown');
+              return resp.text();
+            })
+            .then((text) => {
+              block.innerHTML = marked.parse(text);
+            })
+            .catch((err) => {
+              block.innerHTML = '<p class="news-entry-error">Unable to load article.</p>';
+              console.error(err);
+            });
+        });
+      })();
+    </script>
+</body>
 </html>
